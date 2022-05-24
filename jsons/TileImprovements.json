@@ -1,0 +1,53 @@
+[
+{
+       "name": "Kampung",
+       "uniqueTo": "Majapahit2",
+       "terrainsCanBeBuiltOn": ["Coast"],
+       "production":1,
+       "techRequired":"Optics",
+       "uniques": ["[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Production] <after discovering [Astronomy]>",
+			"[+1 Culture] <after discovering [Flight]>","Cannot be built on [Coast] tiles <with [0] to [0] neighboring [Water resource] tiles>"]
+   },
+	{
+		"name": "Idendo",
+		"uniqueTo": "Leisi",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 1,
+		"culture": 1,
+		"turnsToBuild": 9,
+		"uniques": ["Cannot be built on [Land] tiles <with [0] to [0] neighboring [Luxury resource] tiles>","Cannot be built on [Land] tiles <with [1] to [6] neighboring [Idendo] tiles>","[+1 Food] <after discovering [Fertilizer]>","[+1 Faith] <after discovering [Theology]>","[+2 Faith] for each adjacent [Holy site]"],
+		"techRequired": "Masonry"
+	},
+	{
+		"name": "Jolopong",
+		"uniqueTo": "Sunda Empire",
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"uniques": [
+"[+1 Food] for each adjacent [Jolopong]",
+"[+3 Gold] <after discovering [Economics]>",
+"[+1 Food, +1 Production] for each adjacent [Jolopong] <after discovering [Industrialization]>",
+"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
+"Cannot be built on [Water resource] tiles"
+]
+	},	
+	{
+		"name": "Sacred Grove",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Lithuania",
+		"science": 1,
+		"food": 1,
+		"production": 1,
+		"culture": 1,
+		"uniques": ["Great Improvement","[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Telecommunications]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Computers]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Plastics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Archaeology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Acoustics]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Theology]>",
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Philosophy]>"]
+	}
+]

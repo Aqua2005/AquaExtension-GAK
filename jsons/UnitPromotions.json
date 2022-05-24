@@ -1,0 +1,32 @@
+[
+	{
+		"name": "[Arsia] ability",
+		"uniques": ["Can carry [1] [Aircraft] units"]
+	},
+	{
+		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
+		"uniques": ["Access to special promotions"]
+	},
+	{
+		"name": "Ambition",
+		"uniques": ["[+50]% Strength <when attacking>"],
+		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
+		"unitTypes": ["Melee","Gunpowder"]
+	},
+	{
+		"name": "Invulnerability",
+		"uniques": ["All healing effects doubled"],
+		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
+		"unitTypes": ["Melee","Gunpowder"]
+	},
+	{
+		"name": "Restlessness",
+		"uniques": ["[1] additional attacks per turn"],
+		"prerequisites": ["Mystic Blade", "Ambition", "Invulnerability", "Restlessness"],
+		"unitTypes": ["Melee","Gunpowder"]
+	},
+	{
+		"name": "Heavy Charge", // only for Winged Hussar and subsequent upgrades
+		"uniques": ["[+25]% Strength <when attacking>"]
+	}
+]

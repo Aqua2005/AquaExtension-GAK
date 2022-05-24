@@ -1,0 +1,45 @@
+[
+    {
+		"name": "Nutmeg", 
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Cloves", 
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Pepper", 
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Honey",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Jungle"],
+		"gold": 1,
+		"improvement": "Plantation",
+	},
+	{
+		"name": "Religious Equipment", 
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Souvenir", 
+		"gold": 2,
+		"resourceType": "Luxury",
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Diamonds",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Jungle"],
+		"gold": 2,
+		"improvement": "Quarry",
+		"improvementStats": {"gold": 1},
+		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>"],
+	}
+]

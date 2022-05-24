@@ -1,0 +1,188 @@
+[
+     {
+        "name": "Borobudur",
+        "faith": 5,
+        "isWonder": true,
+        "uniques": ["[3] free [Missionary] units appear","Can only be built [in all cities]","Hidden when religion is disabled"],
+        "requiredTech": "Theology",
+        "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' - Gautama Buddha"
+	},
+	{
+        "name": "Grand Master's Chapel",
+        "isWonder": true,
+        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost","May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost","Hidden when religion is disabled"],
+        "requiredTech": "Theology",
+		"quote": "'The beauty of the Grand Master's Chapel lies in its gold carvings and magnificent size, which makes God's faithful followers relax for a while' - The Books of Clausius"
+	},
+     {
+        "name": "~limit",
+	    "gold": 2,
+        "cost": -1,
+        "uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+    },
+    {
+        "name": "Cloves", // Majapahit luxury
+        "uniqueTo": "Majapahit",
+        "isNationalWonder": true, 
+        "cost": 1,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
+    },
+    {
+        "name": "Nutmeg", // Majapahit luxury
+        "uniqueTo": "Majapahit",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Nutmeg]","Must be next to [Coast]"],
+    },
+    {
+        "name": "Pepper", // Majapahit luxury
+        "uniqueTo": "Majapahit",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Pepper]","Must be next to [Coast]"],
+    },
+    {
+        "name": "Candi", 
+        "replaces": "Garden",
+        "uniqueTo": "Majapahit",
+        "cost": 120,
+        "faith": 3,
+        "uniques": ["[+25]% Great Person generation [in this city]"],
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "requiredTech": "Drama and Poetry"
+    },
+	{
+	    "name": "Campus",
+	    "uniqueTo": "Indonesia",
+		"replaces": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+1 Science, +1 Food] from every specialist [in this city]", "[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+        "name": "Floating Market",
+        "uniqueTo": "Malaysia",
+        "replaces": "Market",
+        "gold": 2,
+        "percentStatBonus": {"gold": 25},
+        "culture": 2,
+        "specialistSlots": {"Merchant": 2},
+        "hurryCostModifier": 25,
+        "requiredTech": "Currency"
+    },
+	{
+        "name": "Suguba",
+        "replaces": "Market",
+        "uniqueTo": "Mali",
+        "gold": 3,
+        "specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 25,
+        "uniques": ["[+30]% [Gold] [in this city]"],
+        "requiredTech": "Currency"
+    },
+    {
+         "name": "Indonesia [Tradition]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Tradition Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Liberty]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Liberty Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Honor]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Honor Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Piety]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Piety Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Patronage]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Patronage Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Commerce]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Commerce Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Rationalism]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Rationalism Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Freedom]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Freedom Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Autocracy]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Autocracy Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Order]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Order Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+		"name": "Pancasila Monument",
+		"replaces": "Courthouse",
+		"uniqueTo": "Indonesia2",
+		"happiness": 2,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities","Destroyed when the city is captured"],
+		"requiredTech": "Mathematics"
+	},
+	{
+	    "name": "Ducal Stable",
+	    "uniqueTo": "Poland",
+		"replaces": "Stable",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
+            "New [Mounted] units start with [15] Experience [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	//Religious Buildings
+	{
+		"name": "Konesan",
+		"cost": 0,
+		"faith": 1,
+		"science": 2,
+		"production": 2,
+		"specialistSlots": {"Scientist": 1},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+    {
+        "name": "Tregtia",
+        "cost": 0,
+        "faith": 2,
+        "culture": 1,
+        "uniques": ["Unbuildable","Destroyed when the city is captured","Hidden when religion is disabled","Provides [1] [Religious Equipment]"],
+    }
+]
