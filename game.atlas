@@ -38,9 +38,23 @@ BuildingIcons/Suguba
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Coral Church
+  rotate: false
+  xy: 200, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Konesan
   rotate: false
   xy: 100, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gulag
+  rotate: false
+  xy: 100, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -199,6 +213,20 @@ NationIcons/Indonesia2
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Philippines
+  rotate: false
+  xy: 300, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Soviet Union
+  rotate: false
+  xy: 300, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Work Boats
   rotate: false
   xy: 900, 0
@@ -262,6 +290,34 @@ UnitIcons/Mandakelu Cavalry2
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Kopassus
+  rotate: false
+  xy: 800, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Katipunero
+  rotate: false
+  xy: 900, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tsar Bomba
+  rotate: false
+  xy: 900, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/T-34
+  rotate: false
+  xy: 800, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Religious Equipment
   rotate: false
   xy: 300, 500
@@ -285,7 +341,7 @@ ResourceIcons/Souvenir
   index: -1
 ResourceIcons/Diamonds
   rotate: false
-  xy: 300, 500
+  xy: 300, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
