@@ -17,8 +17,8 @@
 		"outerColor": [255,255,255],
 		"innerColor": [229,197,29],
 		"uniqueName": "Futuristic Revolution",
-		"uniqueText": "[+1 Science, +1 Production] from every specialist [in all coastal cities]\n[+1 Science, +1 Production] from every [Great Improvement]\n+3% [Science] [in all coastal cities], up to +15% [Science] starting from the Medieval era to the Atomic era",
-		"uniques": ["[+1 Science, +1 Production] from every specialist [in all coastal cities]","[+1 Science, +1 Production] from every [Great Improvement]","[+3]% [Science] [in all coastal cities] <starting from the [Medieval era]>","[+3]% [Science] [in all coastal cities] <starting from the [Renaissance era]>","[+3]% [Science] [in all coastal cities] <starting from the [Industrial era]>","[+3]% [Science] [in all coastal cities] <starting from the [Modern era]>","[+3]% [Science] [in all coastal cities] <starting from the [Atomic era]>"],
+		"uniqueText": "[+1 Science, +1 Production] from every specialist [in all coastal cities]\n[+1 Science, +1 Production] from every [Great Improvement]\n+2% [Science] [in all coastal cities], up to +10% [Science] starting from the Medieval era to the Atomic era",
+		"uniques": ["[+1 Science, +1 Production] from every specialist [in all coastal cities]","[+1 Science, +1 Production] from every [Great Improvement]","[+2]% [Science] [in all coastal cities] <starting from the [Medieval era]>","[+2]% [Science] [in all coastal cities] <starting from the [Renaissance era]>","[+2]% [Science] [in all coastal cities] <starting from the [Industrial era]>","[+2]% [Science] [in all coastal cities] <starting from the [Modern era]>","[+2]% [Science] [in all coastal cities] <starting from the [Atomic era]>"],
 		"cities": ["Jakarta","Bandung","Surabaya","Serang","Semarang","Yogyakarta","Tangerang","Palangkaraya","Pontianak","Samarinda","Banjarmasin","Tanjung Selor","Banda Aceh","Jayapura"]
 	},
 	{
@@ -29,6 +29,10 @@
 	    "preferredVictoryType": "Domination",
 	    "favoredReligion": "Islam",
 	
+	    "startIntroPart1": "Hail to thee, Suharto, President of Indonesia! You rule over the modern nation of Indonesia, a vast, sprawling archipelago rich in culture, wealth, and resources. After thwarting a Communist coup, you rose from military general to the ruler of the nation. You brought political stability, rapid economic growth, and improved education to your fledgling independent nation. Despite accusations of growing corruption, military authoritarianism, and human rights abuses, your reign brought with it a great prosperity for almost thirty years!",
+	    "startIntroPart2": "Suharto, economic crises and a growing political activism would spell the end for your regime. But there are those in Indonesia who wish for a return to the old ways of the New Order! Will your governance once more bring prosperity to Indonesia? Will you build a civilization to stand the test of time?",
+		"defeated": "...This is unfortunate.",
+		"introduction": "Welcome. This is Indonesia, and I am Suharto. Why are you here?",
 	    "outerColor": [100,0,0],
 		"innerColor": [255,255,255],
 		"uniqueName": "The New Order",
@@ -151,6 +155,25 @@
 	    "cities": ["Niani","Timbuktu","Jenne","Gao","Kumbi Saleh","Walata","Tawdenni","Tadmekka","Nioro","Segu","Awdaghust","Kirina","Kangaba","Kouroussa","Niagassola","Diara","Kayes","Dia","Kiri","Narena","Mopti","Arawan","N’teret","Tabon","Kukya","Siby","Fadama","Dakadiala","Kaniana","Siguiri"]
 	},
 	{
+	      "name": "Philippines",
+	      "leaderName": "Jose Rizal",
+	      "startBias": ["Coast"],
+	      "adjective": ["Filipinos"],
+	      "preferredVictoryType": "Cultural",
+	      "favoredReligion": "Christianity",
+	
+	      "startIntroPart1": "Your people gaze upon you with their hearts, José Rizal, national hero of all the Philippines. For thousands of years, the glimmering islands of this land have played host to one of the largest populations in the world, and has become a veritable melting pot for a great diversity of people; fusing together the cultures of Austronesians, Malay, Chinese, Spanish, British and Americans alike. Your ideals have forever shaped the course of Filipino history, and drives through the veins of your people their will for independence. After your execution at the hands of the Spanish colonists in 1896, your adherents rose up, and declared a new nation in the pacific, founded upon the principles of your life's work, and thus for this you are eternally honoured as the first Filipino.",
+		  "startIntroPart2": "O magnificent Rizal, your people call you to change their world once more. Can you defend this beautiful and tranquil homeland against all manner of foe? Can you forge a place for the Philippine Republic through peace and harmony with the world around you? Can you build a civilization that can stand the test of time?",
+	      "defeated": "The Philippine Republic is no more. What sorrow must fill your heart to bring such destruction upon this beautiful land",
+	      "introduction": "Welcome to the Philippines, traveller! I am José Rizal, and I seek only peace, so that we might learn, in harmony, of the cultures that we both nurture.s",
+	
+	      "uniqueName": "Pearl of the Orient",
+	      "uniques": ["[+2 Culture] from each Trade Route"],
+	      "outerColor": [57,189,191],
+		  "innerColor": [255,255,255],
+	      "cities": ["Manila","Cebu","Davao","Butuan","Caloocan","Iloilo","Quezon","Laguna","Vigan","Pangasinan","Baguio","Zamboanga","Olongapo","Legaspi","Sagada","Peurto Princesa","Bacolod","Calbayog","Pasig","Taguig","Leyte","Cotabato","Bacoor","Cabanatuan","Antipolo","Makati","Dasmarines","San Jose del Monte","El Nido"]
+	},
+	{
 	    "name": "Sunda Empire",
 	    "leaderName": "Rangga Sasana",
 	    "adjective": ["Sundanese"],
@@ -172,5 +195,21 @@
 	    "uniqueName": "All World Belongs to Sunda Empire",
 	    "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
 	    "cities": ["Bandung","New York","Jakarta","London","Tokyo","Paris","Canberra"]
+	},
+	{
+	      "name": "Soviet Union",
+	      "leaderName": "Joseph Stalin",
+	      "startBias": ["Tundra"],
+	      "adjective": ["Tekoan"],
+	      "preferredVictoryType": "Domination",
+	
+	      "defeated": "Is this the end?",
+	      "introduction": "Hell Yeah",
+	
+	      "uniqueName": "The Glory of Communism",
+	      "uniques": ["Receive free Great Person everytime you built a [Courthouse] [in annexed cities]"],
+	      "outerColor": [200,200,200],
+		  "innerColor": [204,0,0],
+	      "cities": ["King"]
 	}
 ]

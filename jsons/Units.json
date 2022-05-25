@@ -122,5 +122,52 @@
 		"requiredTech": "Radar",
 		"uniques": ["May Paradrop up to [6] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
+	},
+	{
+	    "name": "Katipunero",
+	    "uniqueTo": "Philippines",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot",
+		"promotions": ["[Katipunero] ability"]
+	},
+	{
+	    "name": "Tsar Bomba",
+	    "uniqueTo": "Soviet Union",
+		"replaces": "Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"movement": 1,
+		"strength": 200,
+		"rangedStrength": 200,
+		"range": 12,
+		"cost": 600,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"promotions" : ["Evasion"],
+		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
+			"Blast radius [2]"],
+		"attackSound": "nuke"
+		// Plane rather than a missile - can be based in city or Carrier only.
+		// Can be intercepted, but must die for it not to take effect.
+	},
+	{
+	    "name": "T-34",
+	    "uniqueTo": "Soviet Union",
+		"replaces": "Tank",
+		"unitType": "Armored",
+		"movement": 6,
+		"strength": 75,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
 	}
 ]

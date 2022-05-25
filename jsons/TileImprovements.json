@@ -14,7 +14,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 1,
 		"culture": 1,
-		"turnsToBuild": 9,
+		"turnsToBuild": 7,
 		"uniques": ["Cannot be built on [Land] tiles <with [0] to [0] neighboring [Luxury resource] tiles>","Cannot be built on [Land] tiles <with [1] to [6] neighboring [Idendo] tiles>","[+1 Food] <after discovering [Fertilizer]>","[+1 Faith] <after discovering [Theology]>","[+2 Faith] for each adjacent [Holy site]"],
 		"techRequired": "Masonry"
 	},
@@ -27,7 +27,6 @@
 		"techRequired": "Guilds",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"uniques": [
-"[+1 Food] for each adjacent [Jolopong]",
 "[+3 Gold] <after discovering [Economics]>",
 "[+1 Food, +1 Production] for each adjacent [Jolopong] <after discovering [Industrialization]>",
 "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
