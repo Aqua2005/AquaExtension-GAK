@@ -19,7 +19,7 @@
 	{
 	    "name":"Jong",
 		"replaces": "Frigate",
-		"uniqueTo":"Majapahit2",
+		"uniqueTo":"Majapahit",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 28,
@@ -35,7 +35,7 @@
 	{
 		"name": "000001",
 		"replaces": "Work Boats",
-		"uniqueTo": "Majapahit2",
+		"uniqueTo": "Majapahit",
 		"unitType": "WaterCivilian",
 		"movement": 4,
 		"cost": 30,
@@ -51,22 +51,6 @@
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": ["Can construct [Jolopong]","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Kris Swordsman", 
-		"replaces": "Swordsman",
-		"unitType": "Melee",
-		"uniqueTo": "Majapahit",
-		"movement": 2,
-		"strength": 15,
-		"cost": 75,
-		"hurryCostModifier": 20,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": ["Consumes [1] [Iron]"],
-		"promotions": ["Mystic Blade"],
-		"attackSound": "metalhit"
 	},
 	{
 		"name": "Pesilat",
@@ -138,43 +122,5 @@
 		"requiredTech": "Radar",
 		"uniques": ["May Paradrop up to [6] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
-	},
-	{
-		"name": "Krivis",
-		"replaces": "Great Prophet",
-		"uniqueTo": "Lithuania",
-		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Can construct [Sacred Grove]", "Great Person - [Faith]", "Unbuildable","Will not be displayed in Civilopedia"],
-		"movement": 4
-	},
-	{
-		"name": "Pestininkas",
-		"uniqueTo": "Lithuania",
-		"replaces": "Pikeman",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 16,
-		"cost": 60,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit",
-	},
-	{
-	    "name": "Winged Hussar",
-	    "uniqueTo": "Poland",
-		"replaces": "Lancer",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 28,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
-		"promotions": ["Formation I","Heavy Charge","Shock I"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
 	}
 ]

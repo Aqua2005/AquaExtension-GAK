@@ -1,7 +1,7 @@
 [
 {
        "name": "Kampung",
-       "uniqueTo": "Majapahit2",
+       "uniqueTo": "Majapahit",
        "terrainsCanBeBuiltOn": ["Coast"],
        "production":1,
        "techRequired":"Optics",
@@ -33,21 +33,5 @@
 "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
 "Cannot be built on [Water resource] tiles"
 ]
-	},	
-	{
-		"name": "Sacred Grove",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "Lithuania",
-		"science": 1,
-		"food": 1,
-		"production": 1,
-		"culture": 1,
-		"uniques": ["Great Improvement","[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Telecommunications]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Computers]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Plastics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Archaeology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Acoustics]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Theology]>",
-			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Philosophy]>"]
 	}
 ]

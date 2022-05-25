@@ -1,51 +1,52 @@
+
 [
-//Follower
-   {
-        "name": "Holy Fleets",
-        "type": "Follower",
-        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
-    },
-    {
+	{
         "name": "Konesans",
         "type": "Follower",
         "uniques": ["May buy [Konesan] buildings with [Faith] [in cities following this religion]"]
-    },
-    {
-        "name": "Scholarship",
-        "type": "Follower",
-        "uniques": ["[+1]% [Science] from every follower, up to [10]%"]
-    },
-    {
-        "name": "Creativity",
-        "type": "Follower",
-        "uniques": ["[+1]% [Culture] from every follower, up to [6]%","[+2 Faith] <in cities with at least [2] [Specialists]>"]
-    },
-    {
-        "name": "Thrift",
-        "type": "Follower",
-        "uniques": ["[+1]% [Gold] from every follower, up to [15]%"]
     },
     {
         "name": "Tregtias",
         "type": "Follower",
         "uniques": ["May buy [Tregtia] buildings with [Faith] [in cities following this religion]"]
     },
-    //Founder
     {
-        "name": "Followers of God",
+        "name": "Creativity",
+        "type": "Follower",
+        "uniques": ["[+1]% [Culture] from every follower, up to [5]%","[+2 Faith] <in cities with at least [1] [Specialists]>"]
+    },
+        {
+        "name": "Thrift",
+        "type": "Follower",
+        "uniques": ["[+1]% [Gold] from every follower, up to [15]%"]
+    },
+        {
+        "name": "Intelligence",
+        "type": "Follower",
+        "uniques": ["[+1]% [Science] from every follower, up to [10]%"]
+    },
+        {
+        "name": "Holy Fleets",
+        "type": "Follower",
+        "uniques": ["May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
+    },
+///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+    {
+        "name": "Obedient Specialist",
         "type": "Founder",
         "uniques": ["[+1 Faith] from every specialist [in all cities]"]
     },
-    //Enhancer
+    
+    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+        
+    {
+        "name": "Scholars",
+        "type": "Enhancer",
+        "uniques": ["[+1 Science, +1 Culture, +2 Faith] from every [Great Improvement]"]
+    },
     {
         "name": "Faith Reform",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing items in cities [-15]%"]
-    },
-    {
-        "name": "Disciples",
-        "type": "Enhancer",
-        "uniques": [
-            "[+1 Culture, +1 Science, +2 Faith] from every [Great Improvement]"]
+        "uniques": ["[Faith] cost of purchasing items in cities [-15]% "]
     }
 ]
