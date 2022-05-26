@@ -4,6 +4,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 1,
+		"food": 1,
 		"improvement": "Plantation",
 	},
 	{
@@ -23,8 +24,27 @@
 		"terrainsCanBeFoundOn": ["Hill","Jungle"],
 		"gold": 2,
 		"improvement": "Quarry",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Hill] Regions>"],
+	},
+	{
+	"name": "Hardwood",
+ "resourceType": "Bonus",
+ "terrainsCanBeFoundOn": ["Forest"],
+ "production": 1,
+ "improvement": "Lumber mill",
+ "uniques":
+  ["Generated on every [14] tiles <in [Forest] tiles>",
+   "Generated on every [10] tiles <in [Hill] [Forest] tiles>",
+   "Generated on every [8] tiles <in [Tundra] [Forest] tiles>"]
+   },
+   {
+		"name": "Rice",
+		"resourceType": "Bonus",
+		"food": 1,
+		"improvement": "Farm",
+		"terrainsCanBeFoundOn": ["Grassland","Flood plains","Marsh"],
+		"uniques": ["Generated on every [27] tiles <in [Featureless] [Grassland] tiles>"]
 	}
 ]

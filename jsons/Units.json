@@ -77,8 +77,9 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
+			"[-33]% Strength <vs cities>","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 		"attackSound": "horse"
 	},
 	{
@@ -169,5 +170,37 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
+	},
+	{
+	    "name": "I-45 Sintang",
+	    "uniqueTo": "Hiland",
+		"replaces": "Fighter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 48,
+		"rangedStrength": 48,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 420,
+		"requiredTech": "Radar",
+		"upgradesTo": "Jet Fighter",
+		"promotions": ["Quick Study"],
+		"uniques": ["[100]% chance to intercept air attacks","[+150]% Strength <vs [Bomber] units>","[+150]% Strength <vs [Helicopter] units>",
+			"Consumes [1] [Oil]"],
+		"attackSound": "shot"
+	},
+	{
+	    "name": "Bhayangkara",
+	    "uniqueTo": "Majapahit2",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 14,
+		"cost": 60,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move after attacking"],
+		"attackSound": "metalhit"
 	}
 ]

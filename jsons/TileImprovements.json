@@ -32,5 +32,14 @@
 "Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
 "Cannot be built on [Water resource] tiles"
 ]
+	},
+	{
+		"name": "Dzirvanas",
+		"uniqueTo": "Arcadia",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["Cannot be built on [Land] tiles <with [1] to [6] neighboring [Dzirvanas] tiles>","[+1 Food] <after discovering [Fertilizer]>","[+1 Production] <after discovering [Civil Service]>","[+1 Food] for each adjacent [Farm]"],
+		"techRequired": "Engineering"
 	}
 ]

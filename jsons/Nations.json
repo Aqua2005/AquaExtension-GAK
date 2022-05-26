@@ -1,4 +1,40 @@
-[
+[ 
+	{
+	      "name": "Arcadia",
+	      "leaderName": "Lanuai",
+	      "startBias": ["Lakes"],
+	      "adjective": ["Arcadian"],
+	      "preferredVictoryType": "Scientific",
+	
+	      "uniqueName": "The Educated Nations",
+	      "uniques": ["[+1 Science, +1 Production] per [5] population [in all cities]"],
+	      "outerColor": [5,18,19],
+		  "innerColor": [25,55,55],
+	      "cities": ["dunno"]
+	},
+	{
+        "name": "Hiland",
+	    "leaderName": "Bill Denbrough",
+	    "startBias":["Forest"],
+	    "adjective": ["Hilandian"],
+	    "preferredVictoryType": "Neutral",
+	    "favoredReligion": "Judaism",
+	    
+	    "startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "prepare for war!",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [210,255,195],
+		"innerColor": [9,34,1],
+		"uniqueName": "Hilandian Wood Trade",
+		"uniques": ["[+1 Production] from every [Lumber mill]","[+1 Gold] from every [Hardwood]"],
+		"cities": ["Hiland City","New Hiland City","Astara","Nailee","Tai","Neo Tai","Lunkei","Satrya","Benneck","Vremont"]
+      },
 	{
         "name": "Indonesia",
 	    "leaderName":"Aidan",
@@ -108,6 +144,19 @@
 			"Yogyakarta","Bima","Sorong"]
       },
       {
+	      "name": "Majapahit2",
+	      "leaderName": "Hayam Wuruk",
+	      "startBias": ["Coast"],
+	      "adjective": ["Javanese"],
+	      "preferredVictoryType": "Domination",
+	
+	      "uniqueName": "The Golden Reign",
+	      "uniques": ["[+1 Happiness] from every [Luxury resource]","[+25]% Golden Age length","[+10]% [Culture] <during a Golden Age>"],
+	      "outerColor": [5,18,19],
+		  "innerColor": [25,55,55],
+	      "cities": ["dunno"]
+	},
+      {
 	      "name": "Malaysia",
 	      "leaderName": "Parameswara",
 	      "startBias": ["Coast"],
@@ -210,6 +259,9 @@
 	      "uniques": ["Receive free Great Person everytime you built a [Courthouse] [in annexed cities]"],
 	      "outerColor": [200,200,200],
 		  "innerColor": [204,0,0],
-	      "cities": ["King"]
+	      "cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]
 	}
 ]
