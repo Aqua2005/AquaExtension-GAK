@@ -5,6 +5,6 @@
 	},
 	{
 		"name": "[Katipunero] ability",
-		"uniques": ["[+1] Movement <in [Friendly Land] tiles>","[+25]% Strength <after adopting [Democracy]>","[+25]% Strength <after adopting [Order]>","[+25]% Strength <after adopting [Autocracy]>"]
+		"uniques": ["[+1] Movement <in [Friendly Land] tiles>","[+25]% Strength"]
 	}
 ]

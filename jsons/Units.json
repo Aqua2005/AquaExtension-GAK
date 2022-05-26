@@ -162,7 +162,7 @@
 		"replaces": "Tank",
 		"unitType": "Armored",
 		"movement": 6,
-		"strength": 75,
+		"strength": 78,
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",

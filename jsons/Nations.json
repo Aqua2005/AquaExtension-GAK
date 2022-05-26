@@ -168,7 +168,7 @@
 	      "introduction": "Welcome to the Philippines, traveller! I am José Rizal, and I seek only peace, so that we might learn, in harmony, of the cultures that we both nurture.s",
 	
 	      "uniqueName": "Pearl of the Orient",
-	      "uniques": ["[+2 Culture] from each Trade Route"],
+	      "uniques": ["[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]"],
 	      "outerColor": [57,189,191],
 		  "innerColor": [255,255,255],
 	      "cities": ["Manila","Cebu","Davao","Butuan","Caloocan","Iloilo","Quezon","Laguna","Vigan","Pangasinan","Baguio","Zamboanga","Olongapo","Legaspi","Sagada","Peurto Princesa","Bacolod","Calbayog","Pasig","Taguig","Leyte","Cotabato","Bacoor","Cabanatuan","Antipolo","Makati","Dasmarines","San Jose del Monte","El Nido"]
