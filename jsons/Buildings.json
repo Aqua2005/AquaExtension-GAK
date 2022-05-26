@@ -137,7 +137,7 @@
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]","Will not be displayed in Civilopedia"],
+			"Can only be built [in annexed cities]","Will not be displayed in Civilopedia","Free Great Person","Unsellable","Destroyed when the city is captured"],
 		"requiredTech": "Mathematics"
 	},
 	//Religious Buildings
