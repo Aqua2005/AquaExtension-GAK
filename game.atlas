@@ -66,6 +66,20 @@ BuildingIcons/Pancasila Monument
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Wood Factory
+  rotate: false
+  xy: 200, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Habrique
+  rotate: false
+  xy: 300, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Tregtia
   rotate: false
   xy: 0, 700
@@ -164,6 +178,13 @@ ImprovementIcons/Jolopong
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Dzirvanas
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Indonesia
   rotate: false
   xy: 200, 0
@@ -223,6 +244,20 @@ NationIcons/Philippines
 NationIcons/Soviet Union
   rotate: false
   xy: 300, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hiland
+  rotate: false
+  xy: 200, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Arcadia
+  rotate: false
+  xy: 300, 800
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -311,6 +346,13 @@ UnitIcons/Tsar Bomba
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/I-45 Lintang
+  rotate: false
+  xy: 900, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/T-34
   rotate: false
   xy: 800, 500
@@ -335,6 +377,13 @@ ResourceIcons/Honey
 ResourceIcons/Souvenir
   rotate: false
   xy: 200, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Hardwood
+  rotate: false
+  xy: 400, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
