@@ -2,11 +2,12 @@
 {
        "name": "Kampung",
        "uniqueTo": "Majapahit",
-       "terrainsCanBeBuiltOn": ["Coast"],
+       "terrainsCanBeBuiltOn": ["Coast","Lakes"],
        "production":1,
        "techRequired":"Optics",
        "uniques": ["[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Production] <after discovering [Astronomy]>",
-			"[+1 Culture] <after discovering [Flight]>","Cannot be built on [Coast] tiles <with [0] to [0] neighboring [Water resource] tiles>"]
+			"[+1 Culture] <after discovering [Flight]>",
+"Cannot be built on [Coast] tiles <with [0] to [0] neighboring [Water resource] tiles>"]
    },
 	{
 		"name": "Idendo",
@@ -27,10 +28,9 @@
 		"techRequired": "Guilds",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"uniques": [
-"[+3 Gold] <after discovering [Economics]>",
+"[+2 Gold] <after discovering [Economics]>",
 "[+1 Food, +1 Production] for each adjacent [Jolopong] <after discovering [Industrialization]>",
-"Cannot be built on [Water] tiles <with [0] to [2] neighboring [Land] tiles>",
-"Cannot be built on [Water resource] tiles"
+"Cannot be built on [Coast] tiles <with [0] to [2] neighboring [Land] tiles>"
 ]
 	},
 	{

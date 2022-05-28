@@ -152,9 +152,13 @@
 	
 	      "uniqueName": "The Golden Reign",
 	      "uniques": ["[+1 Happiness] from every [Luxury resource]","[+25]% Golden Age length","[+10]% [Culture] <during a Golden Age>"],
-	      "outerColor": [5,18,19],
-		  "innerColor": [25,55,55],
-	      "cities": ["dunno"]
+	      "outerColor": [65,108,146],
+		  "innerColor": [247,201,5],
+	      "cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
+			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
+			"Malang","Padang","Ternate","Banjarmasin","Pontianak","Cimahi","Balikpapan","Jambi","Komodo","Solo",
+			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
+			"Yogyakarta","Bima","Sorong"]
 	},
       {
 	      "name": "Malaysia",
@@ -249,7 +253,7 @@
 	      "name": "Soviet Union",
 	      "leaderName": "Joseph Stalin",
 	      "startBias": ["Tundra"],
-	      "adjective": ["Tekoan"],
+	      "adjective": ["Russian"],
 	      "preferredVictoryType": "Domination",
 	
 	      "defeated": "Is this the end?",

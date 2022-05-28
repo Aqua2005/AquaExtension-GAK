@@ -33,24 +33,22 @@
 		"uniques": ["Transfer Movement to [Civilian]"],
 	},
 	{
-		"name": "000001",
-		"replaces": "Work Boats",
+	    "name": "Majapahit Worker",
+		"replaces": "Worker",
 		"uniqueTo": "Majapahit",
-		"unitType": "WaterCivilian",
-		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Can construct [Kampung]","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources","Will not be displayed in Civilopedia"]
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can construct [Kampung]","Can build [Land] improvements on tiles","Will not be displayed in Civilopedia"],
+		"cost": 70
 	},
 	{
-		"name": "000002",
-		"replaces": "Work Boats",
+	    "name": "Sunda Empire Worker",
+		"replaces": "Worker",
 		"uniqueTo": "Sunda Empire",
-		"unitType": "WaterCivilian",
-		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Can construct [Jolopong]","Cannot enter ocean tiles <before discovering [Astronomy]>","May create improvements on water resources","Will not be displayed in Civilopedia"]
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can construct [Jolopong]","Can build [Land] improvements on tiles","Will not be displayed in Civilopedia"],
+		"cost": 70
 	},
 	{
 		"name": "Pesilat",
@@ -104,7 +102,7 @@
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 14,
-		"cost": 75,
+		"cost": 60,
 		"requiredTech": "Horseback Riding",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -121,7 +119,7 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [6] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop up to [8] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -172,7 +170,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-	    "name": "I-45 Sintang",
+	    "name": "I-45 Lintang",
 	    "uniqueTo": "Hiland",
 		"replaces": "Fighter",
 		"unitType": "Fighter",
