@@ -10,6 +10,13 @@ BuildingIcons/Campus
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Pagelaran Wayang
+  rotate: false
+  xy: 400, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Borobudur
   rotate: false
   xy: 0, 0
@@ -192,6 +199,13 @@ NationIcons/Indonesia
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Majapahit2
+  rotate: false
+  xy: 500, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Majapahit
   rotate: false
   xy: 300, 200
@@ -262,25 +276,18 @@ NationIcons/Arcadia
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Work Boats
+UnitIcons/Sunda Empire Worker
   rotate: false
   xy: 900, 0
-  size: 108, 100
-  orig: 108, 100
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/000001
+UnitIcons/Majapahit Worker
   rotate: false
   xy: 900, 0
-  size: 108, 100
-  orig: 108, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/000002
-  rotate: false
-  xy: 900, 0
-  size: 108, 100
-  orig: 108, 100
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Arsia
@@ -360,6 +367,13 @@ UnitIcons/T-34
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Bhayangkara
+  rotate: false
+  xy: 800, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Religious Equipment
   rotate: false
   xy: 300, 500
@@ -393,5 +407,81 @@ ResourceIcons/Diamonds
   xy: 300, 400
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rice
+  rotate: false
+  xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Diamonds
+  rotate: false
+  xy: 0, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rice
+  rotate: false
+  xy: 32, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Kampung
+  rotate: false
+  xy: 64, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest+Hardwood
+  rotate: false
+  xy: 96, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/GrasslandForest+Hardwood
+  rotate: false
+  xy: 128, 0
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest+Hardwood
+  rotate: false
+  xy: 160, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TundraForest+Hardwood
+  rotate: false
+  xy: 192, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jolopong
+  rotate: false
+  xy: 288, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Honey
+  rotate: false
+  xy: 256, 0
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
