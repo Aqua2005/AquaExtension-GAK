@@ -3,14 +3,14 @@ size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Campus
+BuildingIcons/Elite School
   rotate: false
   xy: 0, 200
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Pagelaran Wayang
+BuildingIcons/Wayang Theater
   rotate: false
   xy: 400, 300
   size: 100, 100
@@ -481,6 +481,69 @@ TileSets/FantasyHex/Tiles/Jolopong
 TileSets/FantasyHex/Tiles/Honey
   rotate: false
   xy: 256, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Forest+Hardwood+Lumber mill
+  rotate: false
+  xy: 0, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Hill+Forest+Hardwood+Lumber mill
+  rotate: false
+  xy: 32, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/HillForest+Hardwood+Lumber mill
+  rotate: false
+  xy: 64, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PFHL
+  rotate: false
+  xy: 128, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Forest+Hardwood+Lumber mill
+  rotate: false
+  xy: 96, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Arsia
+  rotate: false
+  xy: 160, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Loko Archer
+  rotate: false
+  xy: 192, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sunda Empire Worker
+  rotate: false
+  xy: 224, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Majapahit Worker
+  rotate: false
+  xy: 224, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
