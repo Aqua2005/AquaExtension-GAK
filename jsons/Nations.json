@@ -2,15 +2,16 @@
 	{
 	      "name": "Arcadia",
 	      "leaderName": "Lanuai",
-	      "startBias": ["Lakes"],
+	      "startBias": ["Avoid [Desert]","Avoid [Snow]"],
 	      "adjective": ["Arcadian"],
 	      "preferredVictoryType": "Scientific",
 	
 	      "uniqueName": "The Educated Nations",
 	      "uniques": ["[+1 Science, +1 Production] per [5] population [in all cities]"],
-	      "outerColor": [5,18,19],
+	      "outerColor": [71,150,99],
 		  "innerColor": [25,55,55],
-	      "cities": ["dunno"]
+	      "cities": ["Dzuatrudak","Vyermyany","Jablorec","Tabonec","Nyirkata","Budavasvari","Lipcaduseni","Ghindespol","Tarnia","Gloruń","Racamanesti","Comaghiol","Zivce","Hustovo","Nikoropol","Kalykiv"
+]
 	},
 	{
         "name": "Hiland",
@@ -53,8 +54,8 @@
 		"outerColor": [255,255,255],
 		"innerColor": [229,197,29],
 		"uniqueName": "Futuristic Revolution",
-		"uniqueText": "[+1 Science, +1 Production] from every specialist [in all coastal cities]\n[+1 Science, +1 Production] from every [Great Improvement]\n+2% [Science] [in all coastal cities], up to +10% [Science] starting from the Medieval era to the Atomic era",
-		"uniques": ["[+1 Science, +1 Production] from every specialist [in all coastal cities]","[+1 Science, +1 Production] from every [Great Improvement]","[+2]% [Science] [in all coastal cities] <starting from the [Medieval era]>","[+2]% [Science] [in all coastal cities] <starting from the [Renaissance era]>","[+2]% [Science] [in all coastal cities] <starting from the [Industrial era]>","[+2]% [Science] [in all coastal cities] <starting from the [Modern era]>","[+2]% [Science] [in all coastal cities] <starting from the [Atomic era]>"],
+		"uniqueText": "[+1 Science, +1 Production] from every specialist [in all cities]\n[+1 Science, +1 Production] from every [Great Improvement]\n+2% [Science] [in all coastal cities], up to +10% [Science] starting from the Medieval era to the Atomic era",
+		"uniques": ["[+1 Science, +1 Production] from every specialist [in all cities]","[+1 Science, +1 Production] from every [Great Improvement]","[+2]% [Science] [in all coastal cities] <starting from the [Medieval era]>","[+2]% [Science] [in all coastal cities] <starting from the [Renaissance era]>","[+2]% [Science] [in all coastal cities] <starting from the [Industrial era]>","[+2]% [Science] [in all coastal cities] <starting from the [Modern era]>","[+2]% [Science] [in all coastal cities] <starting from the [Atomic era]>"],
 		"cities": ["Jakarta","Bandung","Surabaya","Serang","Semarang","Yogyakarta","Tangerang","Palangkaraya","Pontianak","Samarinda","Banjarmasin","Tanjung Selor","Banda Aceh","Jayapura"]
 	},
 	{
@@ -102,7 +103,7 @@
       {
         "name": "Majapahit",
         "leaderName": "Gitarja",
-        "startBias": ["Coast"],
+        "startBias": ["Coast","Lakes"],
         "adjective": ["Javanese"],
         "preferredVictoryType": "Cultural",
         "favoredReligion": "Hinduism",
@@ -117,25 +118,21 @@
 		"outerColor": [205,0,1],
 		"innerColor": [9,171,157],
 		"uniqueName": "Great Nusantara",
-		"uniqueText": "[Great Improvement] get [+1 Food] from every adjacent 2 [Coast] tiles, including [Citadel] - [Happiness]",
+		"uniqueText": "[Great Improvement] get [+1 Food] from every adjacent [Coast] or [Lakes] tiles.  [+1 Faith] [in all coastal cities]",
 		"uniques": [
-"[+1 Food] from every [Academy] <with [2] to [3] neighboring [Coast] tiles>",
-"[+2 Food] from every [Academy] <with [4] to [5] neighboring [Coast] tiles>",
-"[+3 Food] from every [Academy] <with [6] to [6] neighboring [Coast] tiles>",
-"[+1 Food] from every [Landmark] <with [2] to [3] neighboring [Coast] tiles>",
-"[+2 Food] from every [Landmark] <with [4] to [5] neighboring [Coast] tiles>",
-"[+3 Food] from every [Landmark] <with [6] to [6] neighboring [Coast] tiles>",
-"[+1 Food] from every [Manufactory] <with [2] to [3] neighboring [Coast] tiles>",
-"[+2 Food] from every [Manufactory] <with [4] to [5] neighboring [Coast] tiles>",
-"[+3 Food] from every [Manufactory] <with [6] to [6] neighboring [Coast] tiles>",
-"[+1 Food] from every [Customs house] <with [2] to [3] neighboring [Coast] tiles>",
-"[+2 Food] from every [Customs house] <with [4] to [5] neighboring [Coast] tiles>",
-"[+3 Food] from every [Customs house] <with [6] to [6] neighboring [Coast] tiles>",
-"[+1 Food] from every [Holy site] <with [2] to [3] neighboring [Coast] tiles>",
-"[+2 Food] from every [Holy site] <with [4] to [5] neighboring [Coast] tiles>",
-"[+3 Food] from every [Holy site] <with [6] to [6] neighboring [Coast] tiles>",
-"[+1 Happiness] from every [Citadel] <with [2] to [4] neighboring [Coast] tiles>",
-"[+2 Happiness] from every [Citadel] <with [5] to [6] neighboring [Coast] tiles>"
+"[+1 Food] from every [Great Improvement] <with [1] to [1] neighboring [Coast] tiles>",
+"[+2 Food] from every [Great Improvement] <with [2] to [2] neighboring [Coast] tiles>",
+"[+3 Food] from every [Great Improvement] <with [3] to [3] neighboring [Coast] tiles>",
+"[+4 Food] from every [Great Improvement] <with [4] to [4] neighboring [Coast] tiles>",
+"[+5 Food] from every [Great Improvement] <with [5] to [5] neighboring [Coast] tiles>",
+"[+6 Food] from every [Great Improvement] <with [6] to [6] neighboring [Coast] tiles>",
+"[+1 Food] from every [Great Improvement] <with [1] to [1] neighboring [Lakes] tiles>",
+"[+2 Food] from every [Great Improvement] <with [2] to [2] neighboring [Lakes] tiles>",
+"[+3 Food] from every [Great Improvement] <with [3] to [3] neighboring [Lakes] tiles>",
+"[+4 Food] from every [Great Improvement] <with [4] to [4] neighboring [Lakes] tiles>",
+"[+5 Food] from every [Great Improvement] <with [5] to [5] neighboring [Lakes] tiles>",
+"[+6 Food] from every [Great Improvement] <with [6] to [6] neighboring [Lakes] tiles>",
+"[+1 Faith] [in all coastal cities]"
 ],
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
@@ -146,12 +143,12 @@
       {
 	      "name": "Majapahit2",
 	      "leaderName": "Hayam Wuruk",
-	      "startBias": ["Coast"],
+	      "startBias": ["Coast","Lakes"],
 	      "adjective": ["Javanese"],
 	      "preferredVictoryType": "Domination",
 	
 	      "uniqueName": "The Golden Reign",
-	      "uniques": ["[+1 Happiness] from every [Luxury resource]","[+25]% Golden Age length","[+10]% [Culture] <during a Golden Age>"],
+	      "uniques": ["[+10]% [Culture] <during a Golden Age>","[+10]% [Science] <during a Golden Age>","[+10]% [Gold] <during a Golden Age>"],
 	      "outerColor": [65,108,146],
 		  "innerColor": [247,201,5],
 	      "cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",

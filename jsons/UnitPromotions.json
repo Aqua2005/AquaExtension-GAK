@@ -6,5 +6,9 @@
 	{
 		"name": "[Katipunero] ability",
 		"uniques": ["[+1] Movement <in [Friendly Land] tiles>","[+25]% Strength"]
+	},
+	{
+	"name": "[Mandakelu Cavalry2] ability",
+	"uniques": ["Earn [80]% of killed [Military] unit's [Strength] as [Gold]"]
 	}
 ]

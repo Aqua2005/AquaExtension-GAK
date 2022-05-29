@@ -28,8 +28,8 @@
 		"techRequired": "Guilds",
 		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
 		"uniques": [
-"[+2 Gold] <after discovering [Economics]>",
-"[+1 Food, +1 Production] for each adjacent [Jolopong] <after discovering [Industrialization]>",
+"[+3 Gold] <after discovering [Economics]>",
+"[+1 Production] for each adjacent [Jolopong] <after discovering [Industrialization]>",
 "Cannot be built on [Coast] tiles <with [0] to [2] neighboring [Land] tiles>"
 ]
 	},

@@ -57,6 +57,6 @@
     {
         "name": "Faith Reform",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing items in cities [-15]% "]
+        "uniques": ["[+10]% [Faith] [in holy cities]","[+5]% [Science] [in holy cities]","[+5]% [Culture] [in holy cities]"]
     }
 ]

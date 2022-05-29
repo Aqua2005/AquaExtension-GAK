@@ -17,16 +17,16 @@
 		"quote": "'The beauty of the Grand Master's Chapel lies in its gold carvings and magnificent size, which makes God's faithful followers relax for a while' - The Books of Clausius"
 	},
 	{
-	    "name": "Campus",
+	    "name": "Elite School",
 	    "uniqueTo": "Indonesia",
-		"replaces": "University",
-		"maintenance": 2,
-		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 2},
-		"requiredBuilding": "Library",
-		"uniques": ["[+1 Science, +1 Food] from every specialist [in this city]", "[+2 Science] from [Jungle] tiles [in this city]"],
-		"requiredTech": "Education"
+		"replaces": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science, +1 Culture] from every specialist [in this city]","[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Scientific Theory"
 	},
 	{
         "name": "Floating Market",
@@ -43,10 +43,11 @@
         "name": "Suguba",
         "replaces": "Market",
         "uniqueTo": "Mali",
-        "gold": 3,
+        "percentStatBonus": {"gold": 25},
+        "uniques": ["[+5]% [Gold] [in this city]"],
+        "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 25,
-        "uniques": ["[+30]% [Gold] [in this city]"],
         "requiredTech": "Currency"
     },
     {
@@ -114,9 +115,9 @@
 		"replaces": "Courthouse",
 		"uniqueTo": "Indonesia2",
 		"happiness": 2,
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities","Destroyed when the city is captured"],
+		"uniques": ["Remove extra unhappiness from annexed cities","Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city] <during a Golden Age>"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -166,16 +167,17 @@
         "requiredTech": "Economics"
     },
     {
-	    "name": "Pagelaran Wayang",
-	    "uniqueTo": "Majapahit2",
-		"replaces": "Amphitheater",
+        "name": "Wayang Theater",
+        "uniqueTo": "Majapahit2",
+		"replaces": "Opera House",
 		"culture": 5,
+		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 	//Religious Buildings
 	{
