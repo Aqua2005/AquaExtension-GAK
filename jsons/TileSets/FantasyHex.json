@@ -1,0 +1,25 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "ruleVariants": {
+	    //Hardwood
+	    "Grassland+Forest+Hardwood": ["Grassland","GrasslandForest+Hardwood"],
+		"Plains+Forest+Hardwood": ["Plains","PlainsForest+Hardwood"],
+		"Tundra+Forest+Hardwood": ["Tundra","TundraForest+Hardwood"],
+		"Hill+Forest+Hardwood": ["Hill","Forest+Hardwood"],
+		"Grassland+Hill+Forest+Hardwood": ["Grassland","Hill","Forest+Hardwood"],
+		"Plains+Hill+Forest+Hardwood": ["Plains","Hill","Forest+Hardwood"],
+		"Tundra+Hill+Forest+Hardwood": ["Tundra","Hill","Forest+Hardwood"],
+		//Hardwood+Lumber mill
+		"Grassland+Forest+Hardwood+Lumber mill": ["Grassland+Forest+Hardwood+Lumber mill"],
+		"Plains+Forest+Hardwood+Lumber mill": ["PFHL"],
+		"Tundra+Forest+Hardwood+Lumber mill": ["Tundra+Forest+Hardwood+Lumber mill"],
+		"Plains+Hill+Forest+Hardwood+Lumber mill": ["Plains","HillForest+Hardwood+Lumber mill"],
+		"Tundra+Hill+Forest+Hardwood+Lumber mill": ["Tundra","HillForest+Hardwood+Lumber mill"],
+		"Hill+Forest+Hardwood+Lumber mill": ["HillForest+Hardwood+Lumber mill"],
+		"Grassland+Hill+Forest+Hardwood+Lumber mill": ["Grassland+Hill+Forest+Hardwood+Lumber mill"],
+		//Rice+Farm
+         "Grassland+Rice+Farm": ["Grassland+Farm"],
+         "Desert+Flood plains+Rice+Farm": ["Desert+Flood plains+Farm"],
+         "Plains+Rice+Farm": ["Plains+Farm"]
+	     }    
+}
