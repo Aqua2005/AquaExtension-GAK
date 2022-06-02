@@ -17,6 +17,13 @@ BuildingIcons/Wayang Theater
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/The Great Tregtia
+  rotate: false
+  xy: 400, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Borobudur
   rotate: false
   xy: 0, 0
@@ -374,7 +381,7 @@ UnitIcons/Bhayangkara
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Religious Equipment
+ResourceIcons/Religious Objects
   rotate: false
   xy: 300, 500
   size: 100, 100
@@ -412,6 +419,69 @@ ResourceIcons/Diamonds
 ResourceIcons/Rice
   rotate: false
   xy: 400, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bamboo
+  rotate: false
+  xy: 400, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cosmetics
+  rotate: false
+  xy: 400, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 400, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Emerald
+  rotate: false
+  xy: 400, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Hitium
+  rotate: false
+  xy: 400, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Marijuana
+  rotate: false
+  xy: 500, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Ruby
+  rotate: false
+  xy: 500, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mercury
+  rotate: false
+  xy: 600, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Turtles
+  rotate: false
+  xy: 600, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -478,11 +548,60 @@ TileSets/FantasyHex/Tiles/Jolopong
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Emerald
+  rotate: false
+  xy: 288, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Bamboo
+  rotate: false
+  xy: 320, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mercury
+  rotate: false
+  xy: 320, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ruby
+  rotate: false
+  xy: 352, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lumber mill
+  rotate: false
+  xy: 352, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hitium
+  rotate: false
+  xy: 224, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Honey
   rotate: false
   xy: 256, 0
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Turtles
+  rotate: false
+  xy: 256, 32
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Forest+Hardwood+Lumber mill
