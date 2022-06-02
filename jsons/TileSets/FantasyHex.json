@@ -20,6 +20,10 @@
 		//Rice+Farm
          "Grassland+Rice+Farm": ["Grassland+Farm"],
          "Desert+Flood plains+Rice+Farm": ["Desert+Flood plains+Farm"],
-         "Plains+Rice+Farm": ["Plains+Farm"]
+         "Plains+Rice+Farm": ["Plains+Farm"],
+         //Bamboo+Lumber mill
+         "Grassland+Bamboo+Lumber mill": ["Grassland","Lumber mill","Bamboo"],
+         "Grassland+Marsh+Bamboo+Lumber mill": ["Grassland","Marsh","Lumber mill","Bamboo"],
+         "Plains+Bamboo+Lumber mill": ["Plains","Lumber mill","Bamboo"]
 	     }    
 }
