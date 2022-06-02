@@ -25,7 +25,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 4,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science, +1 Culture] from every specialist [in this city]","[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science, +1 Food] from every specialist [in this city]","[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -189,10 +189,18 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
     {
+        "name": "The Great Tregtia",
+        "cost": 0,
+        "faith": 1,
+        "uniques": ["Unbuildable","Destroyed when the city is captured","Hidden when religion is disabled","Provides [2] [Religious Objects]","Provides [2] [Cosmetics]","Limited to [1] per Civilization","Only available <in cities without a [Tregtia]>"],
+    },
+    {
         "name": "Tregtia",
         "cost": 0,
         "faith": 2,
-        "uniques": ["Unbuildable","Destroyed when the city is captured","Hidden when religion is disabled","Provides [1] [Religious Equipment]"],
+        "gold": 2,
+        "happiness": 1,
+        "uniques": ["Unbuildable","Hidden when religion is disabled","Only available <in cities without a [The Great Tregtia]>"],
     },
 //Adjustment
     {

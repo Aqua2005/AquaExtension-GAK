@@ -8,7 +8,45 @@
 		"improvement": "Plantation",
 	},
 	{
-		"name": "Religious Equipment", 
+		"name": "Turtles",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Atoll"],
+		"food": 1,
+		"improvementStats": {"science": 1},
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [8] tiles <in [Atoll] tiles>"]
+	},
+	{
+		"name": "Mercury",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Hill"],
+		"production": 1,
+	    "improvementStats": {"science": 1},
+		"improvement": "Mine",
+	},
+	{
+		"name": "Marijuana",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"happiness": 1,
+		"faith": 1,
+		"improvement": "Plantation",
+	},
+	{
+		"name": "Tea",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Hill"],
+		"gold": 1,
+		"production": 1,
+		"improvement": "Plantation",
+	},
+	{
+		"name": "Religious Objects", 
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Cosmetics", 
 		"gold": 2,
 		"resourceType": "Luxury",
 	},
@@ -28,6 +66,28 @@
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Hill] Regions>"],
 	},
+	{
+		"name": "Emerald",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Forest"],
+		"gold": 2,
+		"improvement": "Mine"
+	},
+	{
+		"name": "Ruby",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Forest"],
+		"gold": 2,
+		"improvement": "Mine"
+	},
+	{
+		"name": "Hitium",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Snow"],
+		"gold": 2,
+		"improvement": "Mine"
+	},
+	//Bonus
 	{
 	"name": "Hardwood",
  "resourceType": "Bonus",
@@ -49,5 +109,12 @@
 "Generated on every [25] tiles <in [Featureless] [Plains] tiles>",
 "Generated on every [10] tiles <in [Marsh] tiles>",
 "Generated on every [15] tiles <in [Flood plains] tiles>"]
+	},
+	{
+		"name": "Bamboo",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Marsh"],
+		"food": 1,
+		"improvement": "Lumber mill",
 	}
 ]

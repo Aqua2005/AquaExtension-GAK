@@ -10,7 +10,7 @@
 	      "uniques": ["[+1 Science, +1 Production] per [5] population [in all cities]"],
 	      "outerColor": [71,150,99],
 		  "innerColor": [25,55,55],
-	      "cities": ["Dzuatrudak","Vyermyany","Jablorec","Tabonec","Nyirkata","Budavasvari","Lipcaduseni","Ghindespol","Tarnia","Gloruń","Racamanesti","Comaghiol","Zivce","Hustovo","Nikoropol","Kalykiv"
+	      "cities": ["Dzuatrudak","Vyermyany","Jablorec","Tabonec","Nyirkata","Budavasvari","Lipcaduseni","Ghindespol","Tarnia","Glorun","Racamanesti","Comaghiol","Zivce","Hustovo","Nikoropol","Kalykiv"
 ]
 	},
 	{
@@ -34,7 +34,7 @@
 		"innerColor": [9,34,1],
 		"uniqueName": "Hilandian Wood Trade",
 		"uniques": ["[+1 Production] from every [Lumber mill]","[+1 Gold] from every [Hardwood]"],
-		"cities": ["Hiland City","New Hiland City","Astara","Nailee","Tai","Neo Tai","Lunkei","Satrya","Benneck","Vremont"]
+		"cities": ["Hilands","New Hilands","Astara","Nailee","Tai","Neo Tai","Lunkei","Satrya","Benneck","Vremont"]
       },
 	{
         "name": "Indonesia",
@@ -215,7 +215,7 @@
 	      "startIntroPart1": "Your people gaze upon you with their hearts, José Rizal, national hero of all the Philippines. For thousands of years, the glimmering islands of this land have played host to one of the largest populations in the world, and has become a veritable melting pot for a great diversity of people; fusing together the cultures of Austronesians, Malay, Chinese, Spanish, British and Americans alike. Your ideals have forever shaped the course of Filipino history, and drives through the veins of your people their will for independence. After your execution at the hands of the Spanish colonists in 1896, your adherents rose up, and declared a new nation in the pacific, founded upon the principles of your life's work, and thus for this you are eternally honoured as the first Filipino.",
 		  "startIntroPart2": "O magnificent Rizal, your people call you to change their world once more. Can you defend this beautiful and tranquil homeland against all manner of foe? Can you forge a place for the Philippine Republic through peace and harmony with the world around you? Can you build a civilization that can stand the test of time?",
 	      "defeated": "The Philippine Republic is no more. What sorrow must fill your heart to bring such destruction upon this beautiful land",
-	      "introduction": "Welcome to the Philippines, traveller! I am José Rizal, and I seek only peace, so that we might learn, in harmony, of the cultures that we both nurture.s",
+	      "introduction": "Welcome to the Philippines, traveller! I am José Rizal, and I seek only peace, so that we might learn, in harmony, of the cultures that we both nurtures",
 	
 	      "uniqueName": "Pearl of the Orient",
 	      "uniques": ["[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]"],
