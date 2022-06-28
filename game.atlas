@@ -1,8 +1,280 @@
+game1.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Longcannon
+  rotate: false
+  xy: 0, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eagle Archer
+  rotate: false
+  xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Paper Sail Ship
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Airship
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Reconnaissance Plane
+  rotate: false
+  xy: 1000, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Andeas Submarine
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wizard Class D
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wizard Class C
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wizard Class B
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wizard Class A
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wizard Class S
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wizard Class SS
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Wizard
+  rotate: false
+  xy: 1900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Bostuosil
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Escon
+  rotate: false
+  xy: 1100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Taevas
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Red Palace
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cardamom
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Saffron
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/~limit
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sky Market
+  rotate: false
+  xy: 1300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Relic
+  rotate: false
+  xy: 1800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cardamom
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Saffron
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Vanilla
+  rotate: false
+  xy: 700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bear
+  rotate: false
+  xy: 1700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Penguin
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Magical World
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Modifier
+  rotate: false
+  xy: 1500, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Conqueror
+  rotate: false
+  xy: 1550, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Overseer
+  rotate: false
+  xy: 1500, 50
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Humiliator
+  rotate: false
+  xy: 1550, 50
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Construction Magic
+  rotate: false
+  xy: 1600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Fishing Spot
+  rotate: false
+  xy: 0, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
 game.png
 size: 1024, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+UnitPromotionIcons/Blitzkrieg
+  rotate: false
+  xy: 950, 950
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Healer
+  rotate: false
+  xy: 900, 950
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Dojo
+  rotate: false
+  xy: 950, 900
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Long Journey
+  rotate: false
+  xy: 900, 900
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Elite School
   rotate: false
   xy: 0, 200
@@ -171,6 +443,20 @@ BuildingIcons/Indonesia [Autocracy]
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Halealii
+  rotate: false
+  xy: 500, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dojo
+  rotate: false
+  xy: 600, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Kampung
   rotate: false
   xy: 100, 800
@@ -199,7 +485,7 @@ ImprovementIcons/Dzirvanas
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Indonesia
+NationIcons/Indonesia3
   rotate: false
   xy: 200, 0
   size: 200, 200
@@ -234,6 +520,13 @@ NationIcons/Malaysia
   orig: 100, 100
   offset: 0, 0
   index: -1,
+NationIcons/Italy2
+  rotate: false
+  xy: 500, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Mali
   rotate: false
   xy: 300, 300
@@ -244,6 +537,27 @@ NationIcons/Mali
 NationIcons/Sunda Empire
   rotate: false
   xy: 200, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Strahan
+  rotate: false
+  xy: 600, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Japan2
+  rotate: false
+  xy: 800, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Thoule
+  rotate: false
+  xy: 800, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -279,6 +593,83 @@ NationIcons/Hiland
 NationIcons/Arcadia
   rotate: false
   xy: 300, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Germany2
+  rotate: false
+  xy: 500, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Atheism
+  rotate: false
+  xy: 700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Atheism
+  rotate: false
+  xy: 700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Catholicism
+  rotate: false
+  xy: 700, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Eastern Orthodoxy
+  rotate: false
+  xy: 700, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Turtlesism
+  rotate: false
+  xy: 700, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Customization
+  rotate: false
+  xy: 700, 400
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Others
+  rotate: false
+  xy: 500, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ReligionIcons/Islam Shia
+  rotate: false
+  xy: 700, 500
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Uncivism
+  rotate: false
+  xy: 700, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Transistorism
+  rotate: false
+  xy: 700, 700
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -332,7 +723,7 @@ UnitIcons/Loko Archer
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Mandakelu Cavalry2
+UnitIcons/Mandekalu Cavalry2
   rotate: false
   xy: 900, 100
   size: 100, 100
@@ -367,6 +758,27 @@ UnitIcons/I-45 Lintang
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Carabinier
+  rotate: false
+  xy: 900, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sali
+  rotate: false
+  xy: 900, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Littorio
+  rotate: false
+  xy: 800, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/T-34
   rotate: false
   xy: 800, 500
@@ -377,6 +789,27 @@ UnitIcons/T-34
 UnitIcons/Bhayangkara
   rotate: false
   xy: 800, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wehrmacht
+  rotate: false
+  xy: 500, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tiger I
+  rotate: false
+  xy: 600, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Yamato
+  rotate: false
+  xy: 900, 800
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -572,6 +1005,20 @@ TileSets/FantasyHex/Tiles/Mercury
 TileSets/FantasyHex/Tiles/Ruby
   rotate: false
   xy: 352, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Frozen Lakes
+  rotate: false
+  xy: 384, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Frozen Lakes+Fishing Spot
+  rotate: false
+  xy: 384, 0
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
