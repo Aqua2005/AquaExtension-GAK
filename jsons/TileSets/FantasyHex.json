@@ -24,6 +24,8 @@
          //Bamboo+Lumber mill
          "Grassland+Bamboo+Lumber mill": ["Grassland","Lumber mill","Bamboo"],
          "Grassland+Marsh+Bamboo+Lumber mill": ["Grassland","Marsh","Lumber mill","Bamboo"],
-         "Plains+Bamboo+Lumber mill": ["Plains","Lumber mill","Bamboo"]
+         "Plains+Bamboo+Lumber mill": ["Plains","Lumber mill","Bamboo"],
+         //Fishing Spot
+         "Snow+Frozen Lakes+Fishing Spot": ["Frozen Lakes+Fishing Spot"]
 	     }    
 }
