@@ -1,0 +1,12 @@
+[
+     {
+		"name": "Frozen Lakes",
+		"type": "TerrainFeature",
+		"food": 2,
+		"gold": 1,
+		"movementCost": 1,
+		"occursOn": ["Snow"],
+		"uniques": ["Fresh water","Rare feature","Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations","Must be adjacent to [6] [Land] tiles","Must be adjacent to [0] [Coast] tiles","Only [Fishing Spot] improvements may be built on this tile",]
+	}
+]

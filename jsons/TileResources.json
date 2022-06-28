@@ -1,11 +1,63 @@
 [
+    //Bostuosil Resources
+    {
+		"name": "Cardamom",
+		"resourceType": "Luxury",
+		"gold": 2
+	},
+	{
+		"name": "Saffron",
+		"resourceType": "Luxury",
+		"gold": 2
+	},
+	//City-states resources
+	{
+		"name": "Vanilla",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	//Great Tregtia resources
+	{
+		"name": "Religious Objects", 
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Cosmetics", 
+		"gold": 2,
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Souvenir", 
+		"gold": 2,
+		"resourceType": "Luxury"
+	},
+	//Tile resources
+    //Luxury resources
 	{
 		"name": "Honey",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 1,
 		"food": 1,
-		"improvement": "Plantation",
+		"improvement": "Plantation"
+	},
+	{
+		"name": "Bear",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Snow","Tundra"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Camp"
+	},
+	{
+		"name": "Penguin",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Snow","Tundra"],
+		"gold": 1,
+		"food": 1,
+		"improvement": "Camp"
 	},
 	{
 		"name": "Turtles",
@@ -39,22 +91,6 @@
 		"gold": 1,
 		"production": 1,
 		"improvement": "Plantation",
-	},
-	{
-		"name": "Religious Objects", 
-		"gold": 2,
-		"resourceType": "Luxury",
-	},
-	{
-		"name": "Cosmetics", 
-		"gold": 2,
-		"resourceType": "Luxury",
-	},
-	{
-		"name": "Souvenir", 
-		"gold": 2,
-		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
 		"name": "Diamonds",

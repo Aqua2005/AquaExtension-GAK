@@ -1,14 +1,114 @@
 [
+    //Unit Promotions
 	{
 		"name": "[Arsia] ability",
-		"uniques": ["Can carry [1] [Aircraft] units"]
+		"uniques": ["Can carry [2] [Aircraft] units"]
 	},
 	{
 		"name": "[Katipunero] ability",
 		"uniques": ["[+1] Movement <in [Friendly Land] tiles>","[+25]% Strength <when attacking>"]
 	},
 	{
-	"name": "[Mandakelu Cavalry2] ability",
+	"name": "[Mandekalu Cavalry2] ability",
 	"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
+	},
+	{
+	"name": "[Macan Bodas] ability",
+	"uniques": ["[+25]% Strength <when fighting in [Forest] tiles>",
+			"[+25]% Strength <when fighting in [Jungle] tiles>",
+			"Double movement in [Forest]",
+			"Double movement in [Jungle]"]
+	},
+	{
+	"name": "[Littorio] ability",
+	"uniques": ["[+20]% Strength <vs [Ranged] units> <when defending>"]
+	},
+	{
+		"name": "[Eagle Archer] ability",
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when fighting in [Jungle] tiles>","[+25]% Strength <vs [Ranged] units> <when fighting in [Forest] tiles>"]
+	},
+	//Civ Building Promotions
+	{
+		"name": "Dojo", // Japan
+		"uniques": ["[+10]% Strength"]
+	},
+	//Civ Promotions
+    {
+		"name": "Blitzkrieg",
+		"uniques": ["[1] additional attacks per turn <in [Enemy Land] tiles>"]
+	},
+	{
+		"name": "The Long Journey", //Escon uniques
+		"uniques": ["[+1] Movement","May enter foreign tiles without open borders"]
+	},
+	{
+		"name": "The Magical World", //Taevas uniques
+        "uniques": ["[Great General] is earned [25]% faster"]
+	},
+	{
+		"name": "The Modifier I",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["May capture killed [Military] units <with [33]% chance>","Only available <for units without [The Overseer I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Conqueror I]>","Only available <for units without [The Healer I]>"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Modifier II",
+		"prerequisites": ["The Modifier I"],
+		"uniques": ["May capture killed [Military] units <with [33]% chance>"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Overseer I",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["[+1] Sight","May enter foreign tiles without open borders","Only available <for units without [The Modifier I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Conqueror I]>","Only available <for units without [The Healer I]>"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Overseer II",
+		"prerequisites": ["The Overseer I"],
+		"uniques": ["[+1] Sight","[+1] Movement"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Humiliator I",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Only available <for units without [The Modifier I]>","Only available <for units without [The Overseer I]>","Only available <for units without [The Conqueror I]>","Only available <for units without [The Healer I]>"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Humiliator II",
+		"prerequisites": ["The Humiliator I"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Conqueror I",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["[+150]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Can only attack [City] units","Only available <for units without [The Modifier I]>","Only available <for units without [The Overseer I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Healer I]>"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Conqueror II",
+		"prerequisites": ["The Conqueror I"],
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Healer I",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["All adjacent units heal [+5] HP when healing","Unit will heal every turn, even if it performs an action","Only available <for units without [The Modifier I]>","Only available <for units without [The Overseer I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Conqueror I]>"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Healer II",
+		"prerequisites": ["The Healer I"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "Construction Magic",
+		"prerequisites": ["The Healer II","The Overseer II","The Humiliator II","The Conqueror II","The Modifier II"],
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"unitTypes": ["Wizardry"]
 	}
 ]

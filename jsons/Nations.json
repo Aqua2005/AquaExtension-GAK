@@ -2,15 +2,64 @@
 	{
 	      "name": "Arcadia",
 	      "leaderName": "Lanuai",
-	      "startBias": ["Avoid [Desert]","Avoid [Snow]"],
+	      "startBias": ["Grassland"],
 	      "adjective": ["Arcadian"],
 	      "preferredVictoryType": "Scientific",
+	      "favoredReligion": "Others",
 	
 	      "uniqueName": "The Educated Nations",
 	      "uniques": ["[+1 Science, +1 Production] per [5] population [in all cities]"],
 	      "outerColor": [71,150,99],
 		  "innerColor": [25,55,55],
 	      "cities": ["Dzuatrudak","Vyermyany","Jablorec","Tabonec","Nyirkata","Budavasvari","Lipcaduseni","Ghindespol","Tarnia","Glorun","Racamanesti","Comaghiol","Zivce","Hustovo","Nikoropol","Kalykiv"
+]
+	},
+	{
+	      "name": "Bostuosil",
+	      "leaderName": "Trania",
+	      "startBias": ["Coast"],
+	      "adjective": ["Bostuosilian"],
+	      "preferredVictoryType": "Diplomatic",
+	      "favoredReligion": "Transistorism",
+	
+	      "uniqueName": "Spices Trade",
+	      "uniqueText": "Your first two coastal cities will provide unique resources\n[Settler] and [Worker] units can enter ocean tiles after discovering [Optics] and enables embarkation for land unit after discovering [Sailing]",
+	      "uniques": ["Enables [Settler] units to enter ocean tiles <after discovering [Optics]>","Enables [Worker] units to enter ocean tiles <after discovering [Optics]>","Enables embarkation for land units <after discovering [Sailing]>"],
+	      "outerColor": [2,46,89],
+		  "innerColor": [113,233,248],
+	      "cities": ["Ezhuidbus","Lusea","Draburg","Cligate","Gliasver","Grido","Crouis","Krose","Esachester","Orapolis"]
+	},
+	{
+	      "name": "Escon",
+	      "leaderName": "Lisi Alisi",
+	      "adjective": ["Esconish"],
+	      "startBias": ["Coast"],
+	      "preferredVictoryType": "Diplomatic",
+	      "favoredReligion": "Uncivism",
+	
+	      "uniqueName": "The Long Journey",
+	      "uniques": ["All newly-trained [Military] units [in all cities] receive the [The Long Journey] promotion"],
+	      "outerColor": [154,0,92],
+		  "innerColor": [229,229,139],
+	      "cities": ["Fifras","Wiro","Ose","Laelmesma","Mismoor","Huriham","Chinoowich","Aros","Murmus","Halitos"]
+	},
+	{
+	      "name": "Germany2",
+	      "leaderName": "Adolf Hitler",
+	      "adjective": ["German"],
+	      "preferredVictoryType": "Domination",
+	      "favoredReligion": "Christianity",
+	
+	      "uniqueName": "Blitzkrieg",
+	      "uniques": ["Upon capturing a city, receive [7] times its [Science] production as [Science] immediately","All newly-trained [{Land} {Melee}] units [in all cities] receive the [Blitzkrieg] promotion"],
+	      "outerColor": [140,22,22],
+		  "innerColor": [0,0,0],
+	      "cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"
 ]
 	},
 	{
@@ -24,29 +73,29 @@
 	    "startIntroPart1": "",
 		"startIntroPart2": "",
 		"declaringWar": "prepare for war!",
-		"attacked": "",
-		"defeated": "",
-		"introduction": "",
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": "",
+		"attacked": "Oh so I see, you don't know do you? that my anger makes the forest a mighty army. And you will feel it",
+		"defeated": "The kingdom of the eternal forest has been destroyed and will definitely come back again.",
+		"introduction": "Welcome to this beautiful forest kingdom, what brings you here?",
+		"neutralHello": "Hello",
+		"hateHello": "Hello, bad guy",
+		"tradeRequest": "Would you like to accept this beautiful trade offer?",
 		"outerColor": [210,255,195],
 		"innerColor": [9,34,1],
 		"uniqueName": "Hilandian Wood Trade",
-		"uniques": ["[+1 Production] from every [Lumber mill]","[+1 Gold] from every [Hardwood]"],
+		"uniques": ["[+1 Food] from every [Forest] <in [Fresh water] tiles>","[+1 Food] from every [Forest] <in [Hill] tiles>","[+1 Gold] from every [Lumber mill]"],
 		"cities": ["Hilands","New Hilands","Astara","Nailee","Tai","Neo Tai","Lunkei","Satrya","Benneck","Vremont"]
       },
 	{
-        "name": "Indonesia",
+        "name": "Indonesia3",
 	    "leaderName":"Aidan",
 	    "startBias":["Coast"],
 	    "adjective": ["Indonesian"],
 	    "preferredVictoryType": "Scientific",
-	    "favoredReligion": "Islam",
+	    "favoredReligion": "Atheism",
 	    
 		"declaringWar": "The thing you have done to my people make me angry, and because of that I declared war on you!",
 		"attacked": "War? Pathetic.",
-		"defeated": "Congratulations to you, and I hope you will be a good leader.",
+		"defeated": "Impossible, destruction has come to us. But I believe Indonesia will rise again.",
 		"introduction": "Welcome to Indonesia, my friend. I am Aidan, President of Indonesia. Nice to meet you!",
 		"neutralHello": "How are you?",
 		"hateHello": "Yes?",
@@ -54,8 +103,8 @@
 		"outerColor": [255,255,255],
 		"innerColor": [229,197,29],
 		"uniqueName": "Futuristic Revolution",
-		"uniqueText": "[+1 Science, +1 Production] from every specialist [in all cities]\n[+1 Science, +1 Production] from every [Great Improvement]\n+2% [Science] [in all coastal cities], up to +10% [Science] starting from the Medieval era to the Atomic era",
-		"uniques": ["[+1 Science, +1 Production] from every specialist [in all cities]","[+1 Science, +1 Production] from every [Great Improvement]","[+2]% [Science] [in all coastal cities] <starting from the [Medieval era]>","[+2]% [Science] [in all coastal cities] <starting from the [Renaissance era]>","[+2]% [Science] [in all coastal cities] <starting from the [Industrial era]>","[+2]% [Science] [in all coastal cities] <starting from the [Modern era]>","[+2]% [Science] [in all coastal cities] <starting from the [Atomic era]>"],
+		"uniqueText": "[+2 Production] from every specialist [in all coastal cities]\n[+2 Production] from every [Great Improvement] with at least [1] adjacent [Coast]\n+2% [Production] [in all coastal cities], up to +10% [Production] starting from the Medieval era to the Atomic era",
+		"uniques": ["[+2 Production] from every specialist [in all coastal cities]","[+2 Production] from every [Great Improvement] <with [1] to [6] neighboring [Coast] tiles>","[+2]% [Production] [in all coastal cities] <starting from the [Medieval era]>","[+2]% [Production] [in all coastal cities] <starting from the [Renaissance era]>","[+2]% [Production] [in all coastal cities] <starting from the [Industrial era]>","[+2]% [Production] [in all coastal cities] <starting from the [Modern era]>","[+2]% [Production] [in all coastal cities] <starting from the [Atomic era]>"],
 		"cities": ["Jakarta","Bandung","Surabaya","Serang","Semarang","Yogyakarta","Tangerang","Palangkaraya","Pontianak","Samarinda","Banjarmasin","Tanjung Selor","Banda Aceh","Jayapura"]
 	},
 	{
@@ -69,13 +118,52 @@
 	    "startIntroPart1": "Hail to thee, Suharto, President of Indonesia! You rule over the modern nation of Indonesia, a vast, sprawling archipelago rich in culture, wealth, and resources. After thwarting a Communist coup, you rose from military general to the ruler of the nation. You brought political stability, rapid economic growth, and improved education to your fledgling independent nation. Despite accusations of growing corruption, military authoritarianism, and human rights abuses, your reign brought with it a great prosperity for almost thirty years!",
 	    "startIntroPart2": "Suharto, economic crises and a growing political activism would spell the end for your regime. But there are those in Indonesia who wish for a return to the old ways of the New Order! Will your governance once more bring prosperity to Indonesia? Will you build a civilization to stand the test of time?",
 		"defeated": "...This is unfortunate.",
+		"declaringWar": "In the future, you will be a threat to us. And because of that we declare war on you!",
+		"attacked": "War? Don't you know the anger of a millions of Indonesians, soon you will.",
 		"introduction": "Welcome. This is Indonesia, and I am Suharto. Why are you here?",
-	    "outerColor": [100,0,0],
-		"innerColor": [255,255,255],
+		"neutralHello": "How are you, the ruler of a distant land?",
+		"hateHello": "Why are you here.",
+		"tradeRequest": "Great leader, will you accept my trade offer while trying the fried rice?",
+	    "innerColor": [255,0,0],
+		"outerColor": [255,255,255],
 		"uniqueName": "The New Order",
 		"uniques": ["Entering the golden age when you built a unique building that will be unlocked when completing policy tree","[+10]% Strength <during a Golden Age>"],
 		"cities": ["Jakarta","Surabaya","Yogyakarta","Medan","Bandung","Semarang","Palembang","Makassar","Pekanbaru","Bandar Lampung","Batam","Padang","Malang","Denpasar","Samarinda","Banjarmasin","Serang","Balikpapan","Pontianak","Jambi","Surakarta","Mataram","Manado","Kupang","Palu","Bengkulu","Ambon","Cirebon","Kendari","Jayapura","Banda Aceh","Palangkaraya","Tanjung Pinang","Pangkal Pinang","Gorontalo","Ternate","Metro"]
       },
+      {
+	      "name": "Italy2",
+	      "leaderName": "Mussolini",
+	      "adjective": ["Italian"],
+		  "startBias":["Forest"],
+	      "preferredVictoryType": "Domination",
+	      "favoredReligion": "Catholicism",
+	
+	      "uniqueName": "Mare Nostrum",
+	      "uniqueText": "[+10]% Production towards any buildings that already exist in the Capital\n[+15]% Production when constructing Land Melee units [in all cities]",
+	      "uniques": ["[+10]% Production towards any buildings that already exist in the Capital","[+15]% Production when constructing [{Land} {Melee}] units [in all cities]"],
+	      "outerColor": [0,54,15],
+		  "innerColor": [151,168,45],
+	      "cities": ["Rome","Milan","Naples","Turin","Palermo","Venice","Genoa","Florence","Bologna","Bari","Catania","Verona","Parma","Livorno","Cagliari","Foggia","Salerno","Forli","Pisa","Asti","Messina","Trieste","Prato","Vicenza","Brescia","Modena","Padua","Siracusa","Ferrara","Novara","Taranto","Perugia","Latina","Bergamo","Pescara","Monza","Sassari","Rimini","Terni","Vittoria"
+]
+	},
+    {
+		"name": "Japan2",
+		"leaderName": "Hideki Tojo",
+		"adjective": ["Japanese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Shinto",
+
+	    "outerColor": [205,205,205],
+		"innerColor": [100,0,0],
+		"favoredReligion": "Shinto",
+		"uniqueName": "Empire of the Pacific",
+		"uniques": ["[+50]% Production when constructing [{Military} {Water}] units [in annexed cities]","[+1 Science] from every [Fishing Boats]","[+1 Science] from every [Atoll]"],
+		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
+	},
       {
         "name": "Leisi",
 	    "leaderName":"Raka",
@@ -103,7 +191,7 @@
       {
         "name": "Majapahit",
         "leaderName": "Gitarja",
-        "startBias": ["Coast","Lakes"],
+        "startBias": ["Coast"],
         "adjective": ["Javanese"],
         "preferredVictoryType": "Cultural",
         "favoredReligion": "Hinduism",
@@ -118,7 +206,7 @@
 		"outerColor": [205,0,1],
 		"innerColor": [9,171,157],
 		"uniqueName": "Great Nusantara",
-		"uniqueText": "[Great Improvement] get [+1 Food] from every adjacent [Coast] or [Lakes] tiles.  [+1 Faith] [in all coastal cities]",
+		"uniqueText": "[Great Improvement] get [+1 Food] from every adjacent [Coast] or [Lakes] tiles",
 		"uniques": [
 "[+1 Food] from every [Great Improvement] <with [1] to [1] neighboring [Coast] tiles>",
 "[+2 Food] from every [Great Improvement] <with [2] to [2] neighboring [Coast] tiles>",
@@ -131,8 +219,7 @@
 "[+3 Food] from every [Great Improvement] <with [3] to [3] neighboring [Lakes] tiles>",
 "[+4 Food] from every [Great Improvement] <with [4] to [4] neighboring [Lakes] tiles>",
 "[+5 Food] from every [Great Improvement] <with [5] to [5] neighboring [Lakes] tiles>",
-"[+6 Food] from every [Great Improvement] <with [6] to [6] neighboring [Lakes] tiles>",
-"[+1 Faith] [in all coastal cities]"
+"[+6 Food] from every [Great Improvement] <with [6] to [6] neighboring [Lakes] tiles>"
 ],
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
@@ -143,12 +230,14 @@
       {
 	      "name": "Majapahit2",
 	      "leaderName": "Hayam Wuruk",
-	      "startBias": ["Coast","Lakes"],
+	      "startBias": ["Coast"],
 	      "adjective": ["Javanese"],
 	      "preferredVictoryType": "Domination",
+	      "favoredReligion": "Hinduism",
 	
 	      "uniqueName": "The Golden Reign",
-	      "uniques": ["[+10]% [Culture] <during a Golden Age>","[+10]% [Science] <during a Golden Age>","[+10]% [Gold] <during a Golden Age>"],
+	      "uniqueText": "[+5]% [Culture], [Science], [Gold], [Production], [Faith] [in all cities] during a Golden Age\n[+25]% Golden Age length",
+	      "uniques": ["[+5]% [Culture] [in all cities] <during a Golden Age>","[+5]% [Science] [in all cities] <during a Golden Age>","[+5]% [Gold] [in all cities] <during a Golden Age>","[+5]% [Production] [in all cities] <during a Golden Age>","[+5]% [Faith] [in all cities] <during a Golden Age>","[+25]% Golden Age length"],
 	      "outerColor": [65,108,146],
 		  "innerColor": [247,201,5],
 	      "cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
@@ -192,13 +281,13 @@
 	    "outerColor": [121,0,2],
 	    "innerColor": [235,225,138],
 	    "uniqueName": "Songs of the Jeli",
-	    "uniqueText": "[+1 Faith, +1 Food] [in all cities] for each adjacent [Desert], up to [+4 Faith] and [+5 Food].  [-1 Production, +4 Gold] from every [Mine].  [-15]% Production when constructing [Military] units and [Buildings] buildings [in all cities]",
+	    "uniqueText": "[+1 Faith, +1 Food] [in all cities] for each adjacent [Desert], up to [+4 Faith] and [+5 Food].  [-1 Production, +3 Gold] from every [Mine].  [-15]% Production when constructing [Military] units and [Buildings] buildings [in all cities]",
 	    "uniques": ["[+1 Faith, +1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
 "[+2 Faith, +2 Food] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
 "[+3 Faith, +3 Food] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
 "[+4 Faith, +4 Food] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
 "[+4 Faith, +5 Food] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
-"[-1 Production, +4 Gold] from every [Mine]",
+"[-1 Production, +3 Gold] from every [Mine]",
 "[-15]% Production when constructing [Military] units [in all cities]",
 "[-15]% Production when constructing [Buildings] buildings [in all cities]"
 ],
@@ -210,12 +299,17 @@
 	      "startBias": ["Coast"],
 	      "adjective": ["Filipinos"],
 	      "preferredVictoryType": "Cultural",
-	      "favoredReligion": "Christianity",
+	      "favoredReligion": "Catholicism",
 	
 	      "startIntroPart1": "Your people gaze upon you with their hearts, José Rizal, national hero of all the Philippines. For thousands of years, the glimmering islands of this land have played host to one of the largest populations in the world, and has become a veritable melting pot for a great diversity of people; fusing together the cultures of Austronesians, Malay, Chinese, Spanish, British and Americans alike. Your ideals have forever shaped the course of Filipino history, and drives through the veins of your people their will for independence. After your execution at the hands of the Spanish colonists in 1896, your adherents rose up, and declared a new nation in the pacific, founded upon the principles of your life's work, and thus for this you are eternally honoured as the first Filipino.",
 		  "startIntroPart2": "O magnificent Rizal, your people call you to change their world once more. Can you defend this beautiful and tranquil homeland against all manner of foe? Can you forge a place for the Philippine Republic through peace and harmony with the world around you? Can you build a civilization that can stand the test of time?",
 	      "defeated": "The Philippine Republic is no more. What sorrow must fill your heart to bring such destruction upon this beautiful land",
 	      "introduction": "Welcome to the Philippines, traveller! I am José Rizal, and I seek only peace, so that we might learn, in harmony, of the cultures that we both nurtures",
+		 "neutralHello": "Mabuhay, the great leader!",
+	     "hateHello": "You are trash that must be exterminated from this beautiful world!!",
+		 "tradeRequest": "Our delegation has brought you trade offers that you may find interesting and Balut that you must try!",
+	     "declaringWar": "Sooner or later, you will only become a problem for us, and because of that we declare war on you!",
+		 "attacked": "So that's how it is, this beautiful country can't be at peace forever.",
 	
 	      "uniqueName": "Pearl of the Orient",
 	      "uniques": ["[+1 Culture] from every [Coast]","[+1 Culture] from every [Ocean]"],
@@ -229,7 +323,7 @@
 	    "adjective": ["Sundanese"],
 	    "startBias": ["Coast"],
 	    "preferredVictoryType": "Cultural",
-	    "favoredReligion": "Islam",
+	    "favoredReligion": "Customization",
 	
 	    "startIntroPart1": "Warm greetings to the ruler of the whole world, the great Rangga Sasana of the Sunda Empire. You have conquered the world and made them your brave warriors, all the progress you have made started from the Bandung Declaration which resulted in the advancement of technology and your army at least in the dream world. After that you quickly conquered the whole world in one day and started the Bandung Declaration II which contained a treaty of world unity in one banner of the Sunda Empire.",
 	    "startIntroPart2": "O Rangga Sasana the ruler of worlds. The empire you lead is indeed prosperous and victorious in all fields. But your people seem to be starting to lose their identity especially after you disappeared. O Rangga Sasana, your people ask you to lead them again in achieving the glory of the Sunda Empire forever and ever. Can you do it? Can you build a civilization that will stand the test of time?",
@@ -252,17 +346,61 @@
 	      "startBias": ["Tundra"],
 	      "adjective": ["Russian"],
 	      "preferredVictoryType": "Domination",
+	      "favoredReligion": "Atheism",
 	
 	      "defeated": "Is this the end?",
 	      "introduction": "Hell Yeah",
 	
 	      "uniqueName": "The Glory of Communism",
-	      "uniques": ["Receive free Great Person everytime you built a [Courthouse] [in annexed cities]"],
+	      "uniques": ["Receive free [Great Engineer] everytime you built a [Gulag] [in annexed cities]. After discovering Industrialization, [Gulag] can be built [in capital]"],
 	      "outerColor": [200,200,200],
-		  "innerColor": [204,0,0],
+		  "innerColor": [100,0,0],
 	      "cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
 			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"]
+	},
+	{
+	      "name": "Strahan",
+	      "leaderName": "Krasan",
+	      "startBias": ["Coast"],
+	      "adjective": ["Strahani"],
+	      "preferredVictoryType": "Diplomatic",
+	      "favoredReligion": "Uncivism",
+	
+	      "uniqueName": "The Rich City-states",
+	      "uniques": ["[+50]% [Gold] from Trade Routes","Cannot build [Settler] units","Receive free [Settler] when you discover [Optics]","Receive free [Settler] when you discover [Astronomy]"],
+	      "outerColor": [89,78,24],
+		  "innerColor": [255,223,0],
+	      "cities": ["Strahan","Hantar","Kladan"]
+	},
+	{
+	      "name": "Taevas",
+	      "leaderName": "Taka Tiki",
+	      "startBias": ["Jungle"],
+	      "adjective": ["Taevasi"],
+	      "preferredVictoryType": "Cultural",
+	      "favoredReligion": "Others",
+	
+	      "uniqueName": "The Magical World",
+	      "uniqueText": "[Archer] and their upgrades will changed to Taevas special units called Wizard with special promotions",
+	      "outerColor": [255,255,255],
+		  "innerColor": [100,100,100],
+	      "cities": ["Dzuatrudak","Vyermyany","Jablorec","Tabonec","Nyirkata","Budavasvari","Lipcaduseni","Ghindespol","Tarnia","Glorun","Racamanesti","Comaghiol","Zivce","Hustovo","Nikoropol","Kalykiv"
+]
+	},
+	{
+	      "name": "Thoule",
+	      "leaderName": "August",
+	      "startBias": ["Hill"],
+	      "adjective": ["Thoulish"],
+	      "preferredVictoryType": "Cultural",
+	      "favoredReligion": "Turtlesism",
+	
+	      "uniqueName": "Sacred Fortress",
+	      "uniques": ["[+15]% Strength for cities <in [Hill] tiles> <with a garrison> <when attacking>","[+1 Culture, +1 Faith] from every [Walls]","[+1 Culture, +1 Faith] from every [Castle]","[+1 Culture, +1 Faith] from every [Arsenal]","[+1 Culture, +1 Faith] from every [Military Base]"],
+	      "outerColor": [62,44,203],
+		  "innerColor": [163,165,255],
+	      "cities": ["Platgate","Foxding","Itouross","Plasa","Closhire","Izlork","Lensa","Krand","Encefield","Eleymouth"]
 	}
 ]
