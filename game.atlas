@@ -157,6 +157,13 @@ BuildingIcons/Relic
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Meeting House
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Cardamom
   rotate: false
   xy: 500, 0
