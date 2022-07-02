@@ -159,7 +159,7 @@ BuildingIcons/Relic
   index: -1
 BuildingIcons/Meeting House
   rotate: false
-  xy: 300, 100
+  xy: 200, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
