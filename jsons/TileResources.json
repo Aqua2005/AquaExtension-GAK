@@ -49,6 +49,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle","Snow","Tundra"],
 		"gold": 1,
 		"food": 1,
+		"improvementStats": {"gold": 1},
 		"improvement": "Camp"
 	},
 	{
@@ -57,6 +58,7 @@
 		"terrainsCanBeFoundOn": ["Snow","Tundra"],
 		"gold": 1,
 		"food": 1,
+		"improvementStats": {"food": 1},
 		"improvement": "Camp"
 	},
 	{
