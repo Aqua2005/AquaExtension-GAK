@@ -26,6 +26,13 @@
          "Grassland+Marsh+Bamboo+Lumber mill": ["Grassland","Marsh","Lumber mill","Bamboo"],
          "Plains+Bamboo+Lumber mill": ["Plains","Lumber mill","Bamboo"],
          //Fishing Spot
-         "Snow+Frozen Lakes+Fishing Spot": ["Frozen Lakes+Fishing Spot"]
+         "Snow+Frozen Lakes+Fishing Spot": ["Frozen Lakes+Fishing Spot"],
+         //Dzirvanas
+         "Desert+Dzirvanas": ["Desert+Dzirvanas"],
+         "Desert+Flood plains+Dzirvanas": ["Desert+Flood plains+Dzirvanas"],
+         "Grassland+Dzirvanas": ["Grassland+Dzirvanas"],
+         "Plains+Dzirvanas": ["Plains+Dzirvanas"],
+         "Snow+Dzirvanas": ["Snow+Dzirvanas"],
+         "Tundra+Dzirvanas": ["Tundra+Dzirvanas"]
 	     }    
 }
