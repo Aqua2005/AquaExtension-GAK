@@ -45,6 +45,13 @@ UnitIcons/Andeas Submarine
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Holy Swordsman
+  rotate: false
+  xy: 500, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Wizard Class D
   rotate: false
   xy: 1400, 0
@@ -115,6 +122,13 @@ NationIcons/Taevas
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Zastaria
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Red Palace
   rotate: false
   xy: 100, 0
@@ -160,6 +174,13 @@ BuildingIcons/Relic
 BuildingIcons/Meeting House
   rotate: false
   xy: 200, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Aetherus Golden Temple
+  rotate: false
+  xy: 400, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -250,7 +271,7 @@ ImprovementIcons/Fishing Spot
   index: -1
 
 game.png
-size: 1024, 1024
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -278,6 +299,27 @@ UnitPromotionIcons/Dojo
 UnitPromotionIcons/The Long Journey
   rotate: false
   xy: 900, 900
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Mountain Peoples
+  rotate: false
+  xy: 1000, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Jolopong
+  rotate: false
+  xy: 900, 0
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kampung
+  rotate: false
+  xy: 900, 50
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -464,6 +506,13 @@ BuildingIcons/Dojo
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Star Observatory
+  rotate: false
+  xy: 1000, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Kampung
   rotate: false
   xy: 100, 800
@@ -497,6 +546,13 @@ NationIcons/Indonesia3
   xy: 200, 0
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Questain
+  rotate: false
+  xy: 1000, 100
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Majapahit2
@@ -681,20 +737,6 @@ ReligionIcons/Transistorism
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Sunda Empire Worker
-  rotate: false
-  xy: 900, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Majapahit Worker
-  rotate: false
-  xy: 900, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Arsia
   rotate: false
   xy: 800, 0
@@ -712,6 +754,13 @@ UnitIcons/Jong
 UnitIcons/Macan Bodas
   rotate: false
   xy: 900, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Buandica
+  rotate: false
+  xy: 1000, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1117,6 +1166,55 @@ TileSets/FantasyHex/Units/Sunda Empire Worker
 TileSets/FantasyHex/Units/Majapahit Worker
   rotate: false
   xy: 224, 32
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert+Dzirvanas
+  rotate: false
+  xy: 0, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert+Flood plains+Dzirvanas
+  rotate: false
+  xy: 32, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Dzirvanas
+  rotate: false
+  xy: 64, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Dzirvanas
+  rotate: false
+  xy: 96, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow+Dzirvanas
+  rotate: false
+  xy: 128, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+Dzirvanas
+  rotate: false
+  xy: 160, 64
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Idendo
+  rotate: false
+  xy: 192, 64
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
