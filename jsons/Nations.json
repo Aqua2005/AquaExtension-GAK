@@ -2,11 +2,21 @@
 	{
 	      "name": "Arcadia",
 	      "leaderName": "Lanuai",
-	      "startBias": ["Grassland"],
+	      "startBias": ["Coast"],
 	      "adjective": ["Arcadian"],
 	      "preferredVictoryType": "Scientific",
 	      "favoredReligion": "Others",
 	
+	    "startIntroPart1": "May goodness be with you, O great Lanuai, King of the kingdom of peace. You managed to unite your people from the differences that exist and lead them to the best path for your kingdom for 500 years and become an example to the world about peace. Though your kingdom will be destroyed by Bostuosilian and then by Leisian. But your kingdom still managed to survive many hardships even though your kingdom will be destroyed forever in another 300 years by the great Rangga Sasana of Sunda Empire.",
+		"startIntroPart2": "But will your kingdom continue to crumble when the Sunda empire begins to crumble and because of that your people ask you to lead them again and bring Arcadia back to being the kingdom of peace. Can you do it? Can you build a civilization that will stand the test of time?",
+	    "declaringWar": "Your stupid actions have disturbed my policies, then prepare for war!",
+		"attacked": "Hahahaha, your stupidity will be the destruction of your own civilization.",
+		"defeated": "Impossible, the kingdom of peace from west has fallen.",
+		"introduction": "Greetings. I am Lanuai, the King of Arcadia and the peaceful lands belong to me. What bring you here?",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want, peace hater?",
+		"tradeRequest": "O peace-loving lord, would you like to accept this offer?",
+		
 	      "uniqueName": "The Educated Nations",
 	      "uniques": ["[+1 Science, +1 Production] per [5] population [in all cities]"],
 	      "outerColor": [71,150,99],
@@ -22,6 +32,16 @@
 	      "preferredVictoryType": "Diplomatic",
 	      "favoredReligion": "Transistorism",
 	
+	    "startIntroPart1": "O Trania the Bostuosilian leader. You lead Bostuosilian on a long journey in search of new territories and resources through the vast and deadly ocean. For hundreds of years your people were feared by the world because of the prowess of your Paper Sail Ship and Eagle Archer, and because of that you were able to conquer various very rich regions and make your archipelagic kingdom the most prosperous country because of the abundant gold plunder. Even though the world will no longer be afraid of your military, your civilization will still be respected by the world because of the legendary Spices trade and because of that your country is called a dream country for traders who want to try their luck in your country because of your country's vast wealth. But unfortunately your people could not make good use of that wealth, especially after your departure, so that prosperity began to be defeated by the Sunda Empire in 1600 AD and your territory was annexed by them.",
+		"startIntroPart2": "Oh great Trania, who even hearing the name makes others afraid of you. Would you like to return prosperity and wealth especially to Bostuosil after experiencing Sundanese decline? Can you build a civilization that will stand the test of time?",
+	    "declaringWar": "My desire to expand has been blocked by you, therefore prepare for war!",
+		"attacked": "Hahaha, don't you know my anger makes mountains erupt, and soon you too.",
+		"defeated": "I know this day will come, but not now.",
+		"introduction": "Oh, the great leader from faraway land. What bring you to my archipelagic kingdom?",
+		"neutralHello": "Hello.",
+		"hateHello": "Huh, the fool is here.",
+		"tradeRequest": "Please, take a look at my lucrative offer and would you like to accept this offer?",
+		
 	      "uniqueName": "Spices Trade",
 	      "uniqueText": "Your first two coastal cities will provide unique resources\n[Settler] and [Worker] units can enter ocean tiles after discovering [Optics] and enables embarkation for land unit after discovering [Sailing]",
 	      "uniques": ["Enables [Settler] units to enter ocean tiles <after discovering [Optics]>","Enables [Worker] units to enter ocean tiles <after discovering [Optics]>","Enables embarkation for land units <after discovering [Sailing]>"],
@@ -38,7 +58,7 @@
 	      "favoredReligion": "Uncivism",
 	
 	      "uniqueName": "The Long Journey",
-	      "uniques": ["All newly-trained [Military] units [in all cities] receive the [The Long Journey] promotion"],
+	      "uniques": ["[Military] units gain the [The Long Journey] promotion"],
 	      "outerColor": [154,0,92],
 		  "innerColor": [229,229,139],
 	      "cities": ["Fifras","Wiro","Ose","Laelmesma","Mismoor","Huriham","Chinoowich","Aros","Murmus","Halitos"]
@@ -51,7 +71,7 @@
 	      "favoredReligion": "Christianity",
 	
 	      "uniqueName": "Blitzkrieg",
-	      "uniques": ["Upon capturing a city, receive [7] times its [Science] production as [Science] immediately","All newly-trained [{Land} {Melee}] units [in all cities] receive the [Blitzkrieg] promotion"],
+	      "uniques": ["Upon capturing a city, receive [6] times its [Science] production as [Science] immediately","[{Land} {Melee}] units gain the [Blitzkrieg] promotion"],
 	      "outerColor": [140,22,22],
 		  "innerColor": [0,0,0],
 	      "cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
@@ -103,8 +123,8 @@
 		"outerColor": [255,255,255],
 		"innerColor": [229,197,29],
 		"uniqueName": "Futuristic Revolution",
-		"uniqueText": "[+2 Production] from every specialist [in all coastal cities]\n[+2 Production] from every [Great Improvement] with at least [1] adjacent [Coast]\n+2% [Production] [in all coastal cities], up to +10% [Production] starting from the Medieval era to the Atomic era",
-		"uniques": ["[+2 Production] from every specialist [in all coastal cities]","[+2 Production] from every [Great Improvement] <with [1] to [6] neighboring [Coast] tiles>","[+2]% [Production] [in all coastal cities] <starting from the [Medieval era]>","[+2]% [Production] [in all coastal cities] <starting from the [Renaissance era]>","[+2]% [Production] [in all coastal cities] <starting from the [Industrial era]>","[+2]% [Production] [in all coastal cities] <starting from the [Modern era]>","[+2]% [Production] [in all coastal cities] <starting from the [Atomic era]>"],
+		"uniqueText": "[+2 Production] from every specialist [in all coastal cities]\n[+2 Production] from every [Great Improvement] with at least [1] adjacent [Coast]\n+5% [Production] when constructing [All] wonders [in all coastal cities] starting from the Renaissance era",
+		"uniques": ["[+2 Production] from every specialist [in all coastal cities]","[+2 Production] from every [Great Improvement] <with [1] to [6] neighboring [Coast] tiles>","[+5]% Production when constructing [All] wonders [in all coastal cities] <starting from the [Renaissance era]>"],
 		"cities": ["Jakarta","Bandung","Surabaya","Serang","Semarang","Yogyakarta","Tangerang","Palangkaraya","Pontianak","Samarinda","Banjarmasin","Tanjung Selor","Banda Aceh","Jayapura"]
 	},
 	{
@@ -219,7 +239,8 @@
 "[+3 Food] from every [Great Improvement] <with [3] to [3] neighboring [Lakes] tiles>",
 "[+4 Food] from every [Great Improvement] <with [4] to [4] neighboring [Lakes] tiles>",
 "[+5 Food] from every [Great Improvement] <with [5] to [5] neighboring [Lakes] tiles>",
-"[+6 Food] from every [Great Improvement] <with [6] to [6] neighboring [Lakes] tiles>"
+"[+6 Food] from every [Great Improvement] <with [6] to [6] neighboring [Lakes] tiles>",
+"[Work Boats] units gain the [Kampung] promotion"
 ],
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
@@ -281,12 +302,13 @@
 	    "outerColor": [121,0,2],
 	    "innerColor": [235,225,138],
 	    "uniqueName": "Songs of the Jeli",
-	    "uniqueText": "[+1 Faith, +1 Food] [in all cities] for each adjacent [Desert], up to [+4 Faith] and [+5 Food].  [-1 Production, +3 Gold] from every [Mine].  [-15]% Production when constructing [Military] units and [Buildings] buildings [in all cities]",
+	    "uniqueText": "[+1 Faith, +1 Food] [in all cities] for each adjacent [Desert]\n[-1 Production, +3 Gold] from every [Mine]\n[-15]% Production when constructing [Military] units and [Buildings] buildings [in all cities]",
 	    "uniques": ["[+1 Faith, +1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
 "[+2 Faith, +2 Food] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
 "[+3 Faith, +3 Food] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
 "[+4 Faith, +4 Food] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
-"[+4 Faith, +5 Food] [in all cities] <with [5] to [6] neighboring [Desert] tiles>",
+"[+5 Faith, +5 Food] [in all cities] <with [5] to [5] neighboring [Desert] tiles>",
+"[+6 Faith, +6 Food] [in all cities] <with [6] to [6] neighboring [Desert] tiles>",
 "[-1 Production, +3 Gold] from every [Mine]",
 "[-15]% Production when constructing [Military] units [in all cities]",
 "[-15]% Production when constructing [Buildings] buildings [in all cities]"
@@ -318,6 +340,24 @@
 	      "cities": ["Manila","Cebu","Davao","Butuan","Caloocan","Iloilo","Quezon","Laguna","Vigan","Pangasinan","Baguio","Zamboanga","Olongapo","Legaspi","Sagada","Peurto Princesa","Bacolod","Calbayog","Pasig","Taguig","Leyte","Cotabato","Bacoor","Cabanatuan","Antipolo","Makati","Dasmarines","San Jose del Monte","El Nido"]
 	},
 	{
+	      "name": "Questain",
+	      "leaderName": "Leon II",
+	      "startBias": ["Mountain"],
+	      "adjective": ["Questain"],
+	      "preferredVictoryType": "Scientific",
+	      "favoredReligion": "Catholicism",
+	
+	      "uniqueName": "The Mountain Peoples",
+	      "uniques": [
+"[+2 Food, +1 Science, +1 Culture, +1 Faith] from every [Mountain]",
+"[Land] units gain the [The Mountain Peoples] promotion"
+],
+	      "outerColor": [1,10,99],
+		  "innerColor": [205,200,185],
+	      "cities": ["Sixily","Myani","Jadorek","Tabc","Siayta","Buari","Luseni","Ghispol","Taroa","Gloeun","Ranesti","Coiol","Zivlire","Hivo","Astopol","Kepiv"
+]
+	},
+	{
 	    "name": "Sunda Empire",
 	    "leaderName": "Rangga Sasana",
 	    "adjective": ["Sundanese"],
@@ -337,7 +377,8 @@
 	    "outerColor": [0,0,0],
 	    "innerColor": [255,255,255],
 	    "uniqueName": "All World Belongs to Sunda Empire",
-	    "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+	    "uniqueText": "Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.",
+	    "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.","[Work Boats] units gain the [Jolopong] promotion"],
 	    "cities": ["Bandung","New York","Jakarta","London","Tokyo","Paris","Canberra"]
 	},
 	{
@@ -372,7 +413,7 @@
 	      "uniques": ["[+50]% [Gold] from Trade Routes","Cannot build [Settler] units","Receive free [Settler] when you discover [Optics]","Receive free [Settler] when you discover [Astronomy]"],
 	      "outerColor": [89,78,24],
 		  "innerColor": [255,223,0],
-	      "cities": ["Strahan","Hantar","Kladan"]
+	      "cities": ["Strahan","Hantar","Kladan","Lontar","Xixilan"]
 	},
 	{
 	      "name": "Taevas",
@@ -386,7 +427,7 @@
 	      "uniqueText": "[Archer] and their upgrades will changed to Taevas special units called Wizard with special promotions",
 	      "outerColor": [255,255,255],
 		  "innerColor": [100,100,100],
-	      "cities": ["Dzuatrudak","Vyermyany","Jablorec","Tabonec","Nyirkata","Budavasvari","Lipcaduseni","Ghindespol","Tarnia","Glorun","Racamanesti","Comaghiol","Zivce","Hustovo","Nikoropol","Kalykiv"
+	      "cities": ["Sandwick","Blackwallow","Whithaven","Sleekvale","Steepfall","Limepass","Silkhold","Rimecliff","Crystalmire","Nighthaven"
 ]
 	},
 	{
@@ -402,5 +443,20 @@
 	      "outerColor": [62,44,203],
 		  "innerColor": [163,165,255],
 	      "cities": ["Platgate","Foxding","Itouross","Plasa","Closhire","Izlork","Lensa","Krand","Encefield","Eleymouth"]
+	},
+	{
+	      "name": "Zastaria",
+	      "leaderName": "Dan",
+	      "startBias": ["Plains"],
+	      "adjective": ["Zastarian"],
+	      "preferredVictoryType": "Cultural",
+	      "favoredReligion": "Others",
+	
+	      "uniqueName": "Land of the Prophets",
+	      "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>","[-25]% Faith cost of generating Great Prophet equivalents"],
+	      "outerColor": [15,154,0],
+		  "innerColor": [16,0,242],
+	      "cities": ["Aetherus","Paphollo","Chamoezen","Pheregea","Tauresia","Stympheidonia","Knidiki","Kasmenaros","Assespontos","Rinda","Chalcigus"
+]
 	}
 ]

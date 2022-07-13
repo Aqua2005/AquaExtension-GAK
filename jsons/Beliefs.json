@@ -8,7 +8,7 @@
     {
         "name": "God of the Depths",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith, -1 Gold] from every [Ocean]"]
+        "uniques": ["[+2 Faith, -1 Gold] from every [Ocean]"]
     },
     {
         "name": "Lady of the Reeds and Marshes",
@@ -29,7 +29,7 @@
     {
         "name": "Lord of the Lies",
         "type": "Follower",
-        "uniques": ["[+1 Faith, +1 Happiness, -1 Science] from every [Library]"]
+        "uniques": ["[+2 Faith, +1 Happiness, -1 Science] from every [Library]"]
     },
 	{
         "name": "Konesans",
@@ -75,17 +75,17 @@
     {
         "name": "Faithful Followers",
         "type": "Founder",
-        "uniques": ["[+1 Faith] from every specialist [in all cities]","[+1 Faith] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+1 Faith] from every specialist [in all cities]"]
     },
     {
         "name": "To the Glory of Gods",
         "type": "Founder",
-        "uniques": ["[+15]% Strength <for [All] units> <in cities with at least [3] [Followers of this Religion]>"]
+        "uniques": ["[+15]% Strength <for [All] units> <in cities with at least [2] [Followers of this Religion]>"]
     },
     {
         "name": "Cross-Cultural Dialogue",
         "type": "Founder",
-        "uniques": ["When spreading religion to a city, gain [7] times the amount of followers of other religions as [Culture]"]
+        "uniques": ["When spreading religion to a city, gain [8] times the amount of followers of other religions as [Culture]"]
     },
     {
         "name": "Tithe",
@@ -113,7 +113,7 @@
     {
         "name": "Faith Reform",
         "type": "Enhancer",
-        "uniques": ["[+20]% [Faith] [in all cities]"]
+        "uniques": ["[+15]% [Faith] [in all cities]"]
     },
     {
 	    "name": "Expansion to the Gods",

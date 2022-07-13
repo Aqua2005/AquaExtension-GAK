@@ -14,17 +14,17 @@
        "terrainsCanBeBuiltOn": ["Coast","Lakes"],
        "production":1,
        "techRequired":"Optics",
-       "uniques": ["[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Production] <after discovering [Astronomy]>",
-			"[+1 Culture] <after discovering [Flight]>",
-"Cannot be built on [Coast] tiles <with [0] to [0] neighboring [Water resource] tiles>"]
+       "turnsToBuild": 7,
+       "uniques": ["Cannot be built on [Coast] tiles <with [0] to [0] neighboring [Water resource] tiles>","[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Food] for each adjacent [Great Improvement]","[+1 Production] <after discovering [Astronomy]>",
+			"[+1 Culture] <after discovering [Flight]>"]
    },
 	{
 		"name": "Idendo",
 		"uniqueTo": "Leisi",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 1,
-		"turnsToBuild": 8,
-		"uniques": ["[+1 Production] for each adjacent [Forest]","[+1 Food] <after discovering [Fertilizer]>","[+1 Food] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
+		"turnsToBuild": 6,
+		"uniques": ["[+1 Food] for each adjacent [Camp]","[+1 Production] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
 		"techRequired": "Masonry"
 	},
 	{
@@ -44,10 +44,10 @@
 	{
 		"name": "Dzirvanas",
 		"uniqueTo": "Arcadia",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 8,
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>","[+1 Production] <after discovering [Civil Service]>","[+1 Food] for each adjacent [Farm]"],
-		"techRequired": "Engineering"
+		"uniques": ["Can only be built on [Coastal] tiles","Cannot be built on [Hill] tiles","[+1 Food] <after discovering [Fertilizer]>","[+1 Production] <after discovering [Civil Service]>","[+1 Production] for each adjacent [Hill]"],
+		"techRequired": "Masonry"
 	}
 ]

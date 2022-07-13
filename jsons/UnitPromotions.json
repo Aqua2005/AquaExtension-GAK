@@ -10,7 +10,7 @@
 	},
 	{
 	"name": "[Mandekalu Cavalry2] ability",
-	"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Gold]"]
+	"uniques": ["Earn [75]% of killed [Military] unit's [Strength] as [Gold]"]
 	},
 	{
 	"name": "[Macan Bodas] ability",
@@ -27,10 +27,23 @@
 		"name": "[Eagle Archer] ability",
 		"uniques": ["[+25]% Strength <vs [Ranged] units> <when fighting in [Jungle] tiles>","[+25]% Strength <vs [Ranged] units> <when fighting in [Forest] tiles>"]
 	},
+	{
+		"name": "[Holy Swordsman] ability",
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+		//Should be in cities that follow your religion
+	},
 	//Civ Building Promotions
 	{
 		"name": "Dojo", // Japan
 		"uniques": ["[+10]% Strength"]
+	},
+	{
+	   "name": "Kampung",
+	   "uniques": ["Can build [Kampung] improvements on tiles","Will not be displayed in Civilopedia"]
+	},
+	{
+	   "name": "Jolopong",
+	   "uniques": ["Can build [Jolopong] improvements on tiles","Will not be displayed in Civilopedia"]
 	},
 	//Civ Promotions
     {
@@ -39,7 +52,11 @@
 	},
 	{
 		"name": "The Long Journey", //Escon uniques
-		"uniques": ["[+1] Movement","May enter foreign tiles without open borders"]
+		"uniques": ["[+1] Sight","May enter foreign tiles without open borders"]
+	},
+	{
+	    "name": "The Mountain Peoples", //Questain
+        "uniques": ["Can pass through impassable tiles","[+10]% Strength <within [2] tiles of a [Mountain]>"]
 	},
 	{
 		"name": "The Magical World", //Taevas uniques

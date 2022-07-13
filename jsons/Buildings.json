@@ -111,6 +111,7 @@
 	},
 	{
         "name": "Grand Master’s Chapel",
+        "maintenance": 2,
         "isWonder": true,
         "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","Hidden when religion is disabled"],
         "requiredTech": "Theology",
@@ -125,7 +126,7 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured","[+1 Gold] from [Luxury resource] tiles [in this city]"]
+		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Luxury resource] tiles [in this city]"]
 	},
 	{
 	    "name": "Elite School",
@@ -252,6 +253,38 @@
 		"requiredBuilding": "Library",
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+1 Culture] from [Jungle] tiles [in this city]","[+5]% [Culture] [in this city]"],
 		"requiredTech": "Education"
+	},
+	{
+	    "name": "Aetherus Golden Temple",
+	    "uniqueTo": "Zastaria",
+		"replaces": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]","[+2 Faith] from every specialist [in all cities]","[+2 Faith] from [Great Improvement] tiles [in all cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	{
+	    "name": "Star Observatory",
+	    "uniqueTo": "Questain",
+		"replaces": "Observatory",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]","[+2 Gold, +2 Production] from every [Mountain]"],
+		"requiredTech": "Astronomy"
+	},
+	//Religious Victory
+   {
+		"name": "World Religion",
+		"cost": 1500,
+		"requiredTech": "Globalization",
+		"isNationalWonder": true,
+		"uniques": ["Triggers a global alert upon build start",
+			"Triggers victory", "Hidden when [Religious] Victory is disabled", "Cannot be hurried"]
 	},
 	//Religious Buildings
 	{
