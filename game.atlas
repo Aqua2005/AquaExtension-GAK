@@ -1156,20 +1156,6 @@ TileSets/FantasyHex/Units/Loko Archer
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Sunda Empire Worker
-  rotate: false
-  xy: 224, 32
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Majapahit Worker
-  rotate: false
-  xy: 224, 32
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/Desert+Dzirvanas
   rotate: false
   xy: 0, 64
