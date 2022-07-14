@@ -147,7 +147,7 @@
 	    "innerColor": [255,0,0],
 		"outerColor": [255,255,255],
 		"uniqueName": "The New Order",
-		"uniques": ["Entering the golden age when you built a unique building that will be unlocked when completing policy tree","[+10]% Strength <during a Golden Age>"],
+		"uniques": ["Entering the golden age when you built a unique building that will be unlocked when completing policy tree","[+25]% Strength <during a Golden Age>"],
 		"cities": ["Jakarta","Surabaya","Yogyakarta","Medan","Bandung","Semarang","Palembang","Makassar","Pekanbaru","Bandar Lampung","Batam","Padang","Malang","Denpasar","Samarinda","Banjarmasin","Serang","Balikpapan","Pontianak","Jambi","Surakarta","Mataram","Manado","Kupang","Palu","Bengkulu","Ambon","Cirebon","Kendari","Jayapura","Banda Aceh","Palangkaraya","Tanjung Pinang","Pangkal Pinang","Gorontalo","Ternate","Metro"]
       },
       {
