@@ -32,6 +32,10 @@
 		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
 		//Should be in cities that follow your religion
 	},
+	{
+		"name": "Prophets of War",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles"]
+	},
 	//Civ Building Promotions
 	{
 		"name": "Dojo", // Japan

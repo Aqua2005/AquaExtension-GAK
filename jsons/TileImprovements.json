@@ -24,7 +24,7 @@
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 1,
 		"turnsToBuild": 6,
-		"uniques": ["[+1 Food] for each adjacent [Camp]","[+1 Production] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
+		"uniques": ["[+1 Food] for each adjacent [Camp]","[+1 Production, +1 Food] <after discovering [Industrialization]>","[+1 Faith] <after discovering [Theology]>"],
 		"techRequired": "Masonry"
 	},
 	{
@@ -47,7 +47,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 8,
-		"uniques": ["Can only be built on [Coastal] tiles","Cannot be built on [Hill] tiles","[+1 Food] <after discovering [Fertilizer]>","[+1 Production] <after discovering [Civil Service]>","[+1 Production] for each adjacent [Hill]"],
+		"uniques": ["Cannot be built on [Bonus resource] tiles","Can only be built on [Coastal] tiles","Cannot be built on [Hill] tiles","[+1 Food] <after discovering [Fertilizer]>","[+1 Production] <after discovering [Civil Service]>","[+1 Production] for each adjacent [Dzirvanas]"],
 		"techRequired": "Masonry"
 	}
 ]

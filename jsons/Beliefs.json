@@ -78,9 +78,9 @@
         "uniques": ["[+1 Faith] from every specialist [in all cities]"]
     },
     {
-        "name": "To the Glory of Gods",
+        "name": "Prophets of War",
         "type": "Founder",
-        "uniques": ["[+15]% Strength <for [All] units> <in cities with at least [2] [Followers of this Religion]>"]
+        "uniques": ["[Great Prophet] units gain the [Prophets of War] promotion"]
     },
     {
         "name": "Cross-Cultural Dialogue",
@@ -119,5 +119,10 @@
 	    "name": "Expansion to the Gods",
         "type": "Enhancer",
         "uniques": ["May buy [Worker] units with [Faith] for [2] times their normal Production cost","May buy [Settler] units with [Faith] for [2] times their normal Production cost"]
+    },
+    {
+	    "name": "Religious Education",
+        "type": "Enhancer",
+        "uniques": ["[Missionary] units built [in all cities] can [Spread Religion] [1] extra times","[Great Prophet] units built [in all cities] can [Spread Religion] [1] extra times"]
     }
 ]

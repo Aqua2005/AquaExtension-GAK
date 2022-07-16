@@ -167,7 +167,7 @@
 		"replaces": "Courthouse",
 		"uniqueTo": "Indonesia2",
 		"happiness": 2,
-		"maintenance": 2,
+		"maintenance": 1,
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities","Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city] <during a Golden Age>"],
 		"requiredTech": "Mathematics"
