@@ -291,7 +291,14 @@ UnitPromotionIcons/The Healer
   index: -1
 UnitPromotionIcons/Dojo
   rotate: false
-  xy: 950, 900
+  xy: 1000, 300
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Prophets of War
+  rotate: false
+  xy: 1000, 350
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
