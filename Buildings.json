@@ -1,0 +1,377 @@
+[
+     //Civ Uniques
+	{
+        "name": "~limit",
+	    "gold": 2,
+        "cost": -1,
+        "uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+    },
+    {
+        "name": "Saffron", // Bostuosil luxury
+        "uniqueTo": "Bostuosil",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Saffron]","Must be next to [Coast]"],
+    },
+    {
+        "name": "Cardamom", // Bostuosil luxury
+        "uniqueTo": "Bostuosil",
+        "isNationalWonder": true,
+        "cost": 1,
+        "uniques": ["Only available <in cities without a [~limit]>","Gain a free [~limit] [in this city]","Will not be displayed in Civilopedia","Provides [2] [Cardamom]","Must be next to [Coast]"],
+    },
+    {
+         "name": "Indonesia [Tradition]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Tradition Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Liberty]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Liberty Complete]>","Empire enters golden age","Unsellable","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Honor]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Honor Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Piety]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Piety Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Patronage]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Patronage Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Commerce]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Commerce Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Rationalism]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Rationalism Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Freedom]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Freedom Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Autocracy]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Autocracy Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+         "name": "Indonesia [Order]",
+         "cost": 1,
+         "uniqueTo": "Indonesia2",
+         "uniques": ["Can only be built [in capital]","Only available <after adopting [Order Complete]>","Empire enters golden age","Unsellable","Will not be displayed in Civilopedia"]
+    },
+    {
+	    "name": "Gulag",
+	    "uniqueTo": "Soviet Union",
+		"replaces": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]","Will not be displayed in Civilopedia","Free [Great Engineer] appears","Unsellable","Destroyed when the city is captured"],
+		"requiredTech": "Mathematics"
+	},
+	{
+	    "name": "Free [Gulag]",
+	    "uniqueTo": "Soviet Union",
+		"maintenance": 0,
+		"cost": 1,
+		"uniques": ["Gain a free [Gulag] [in this city]","Can only be built [in capital]","Will not be displayed in Civilopedia","Free [Great Engineer] appears","Unsellable","Destroyed when the city is captured"],
+		"requiredTech": "Industrialization"
+	},
+     //Wonders
+     {
+        "name": "Borobudur",
+        "faith": 5,
+        "isWonder": true,
+        "uniques": ["[3] free [Missionary] units appear",
+				"Can only be built [in holy cities]",
+				"Hidden when religion is disabled"],
+        "requiredTech": "Theology",
+        "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' - Gautama Buddha"
+	},
+	{
+        "name": "Grand Master’s Chapel",
+        "maintenance": 2,
+        "isWonder": true,
+        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","May buy [{Military} {Water}] units with [Faith] for [2] times their normal Production cost <starting from the [Industrial era]>","Hidden when religion is disabled"],
+        "requiredTech": "Theology",
+		"quote": "'The beauty of the Grand Master's Chapel lies in its gold carvings and magnificent size, which makes God's faithful followers relax for a while' - The Books of Clausius"
+	},
+	//Civ Unique Buildings
+	{
+		"name": "Halealii",
+		"uniqueTo": "Strahan",
+		"replaces": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured","[+2 Gold] from [Luxury resource] tiles [in this city]"]
+	},
+	{
+	    "name": "Elite School",
+	    "uniqueTo": "Indonesia3",
+		"replaces": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "University",
+		"maintenance": 4,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] from every specialist [in this city]","[+1 Science] from [Great Improvement] tiles [in this city] <with [1] to [6] neighboring [Coast] tiles>","[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+        "name": "Floating Market",
+        "uniqueTo": "Malaysia",
+        "replaces": "Market",
+        "gold": 2,
+        "percentStatBonus": {"gold": 25},
+        "culture": 2,
+        "specialistSlots": {"Merchant": 2},
+        "hurryCostModifier": 25,
+        "requiredTech": "Currency"
+    },
+	{
+        "name": "Suguba",
+        "replaces": "Market",
+        "uniqueTo": "Mali",
+        "percentStatBonus": {"gold": 25},
+        "uniques": ["[+5]% [Gold] [in this city]"],
+        "gold": 2,
+        "specialistSlots": {"Merchant": 1},
+        "hurryCostModifier": 25,
+        "requiredTech": "Currency"
+    },
+    {
+		"name": "Pancasila Monument",
+		"replaces": "Courthouse",
+		"uniqueTo": "Indonesia2",
+		"happiness": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities","Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city] <during a Golden Age>"],
+		"requiredTech": "Mathematics"
+	},
+	{
+	    "name": "Coral Church",
+	    "uniqueTo": "Philippines",
+		"replaces": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]","[+2 Faith] from [Water resource] tiles [in this city]","[+5]% growth [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	{
+	    "name": "Habrique",
+	    "uniqueTo": "Arcadia",
+		"replaces": "Factory",
+		"cost": 300,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Industrialization"
+	},
+	{
+	    "name": "Red Palace",
+		"replaces": "Windmill",
+		"uniqueTo": "Thoule",
+		"production": 2,
+		"culture": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Economics"
+	},
+	{
+        "name": "Wood Factory",
+        "uniqueTo": "Hiland",
+        "replaces": "Windmill",
+        "production": 2,
+        "specialistSlots": {"Engineer": 1},
+        "hurryCostModifier": 25,
+        "maintenance": 2,
+        "uniques": ["[+10]% Production when constructing [All] buildings [in this city]","[+1 Production] from [Lumber mill] tiles [in this city]"],
+        "requiredTech": "Economics"
+    },
+    {
+        "name": "Wayang Theater",
+        "uniqueTo": "Majapahit2",
+		"replaces": "Opera House",
+		"culture": 5,
+		"happiness": 2,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 3,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+	    "name": "Sky Market",
+	    "uniqueTo": "Escon",
+		"replaces": "Water Mill",
+		"food": 2,
+		"gold": 1,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "The Wheel"
+	},
+	{
+	    "name": "Relic",
+	    "uniqueTo": "Taevas",
+		"replaces": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+1 Culture] from [Jungle] tiles [in this city]","[+5]% [Culture] [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+	    "name": "Aetherus Golden Temple",
+	    "uniqueTo": "Zastaria",
+		"replaces": "Grand Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]","[+2 Faith] from every specialist [in all cities]","[+2 Faith] from [Great Improvement] tiles [in all cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	{
+	    "name": "Star Observatory",
+	    "uniqueTo": "Questain",
+		"replaces": "Observatory",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]","[+2 Gold, +2 Production] from every [Mountain]"],
+		"requiredTech": "Astronomy"
+	},
+	//Religious Victory
+   {
+		"name": "World Religion",
+		"cost": 1500,
+		"requiredTech": "Globalization",
+		"isNationalWonder": true,
+		"uniques": ["Triggers a global alert upon build start",
+			"Triggers victory", "Hidden when [Religious] Victory is disabled", "Cannot be hurried"]
+	},
+	//Religious Buildings
+	{
+		"name": "Konesan",
+		"cost": 0,
+		"faith": 3,
+		"science": 2,
+		"specialistSlots": {"Scientist": 1},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+	{
+		"name": "Meeting House",
+		"cost": 0,
+		"faith": 2,
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
+    {
+        "name": "The Great Tregtia",
+        "cost": 0,
+        "faith": 2,
+        "uniques": ["Unbuildable","Destroyed when the city is captured","Hidden when religion is disabled","Provides [2] [Religious Objects]","Provides [2] [Cosmetics]","Provides [2] [Souvenir]","Limited to [1] per Civilization","Only available <in cities without a [Tregtia]>"],
+    },
+    {
+        "name": "Tregtia",
+        "cost": 0,
+        "faith": 2,
+        "gold": 3,
+        "happiness": 1,
+        "uniques": ["Unbuildable","Hidden when religion is disabled","Only available <in cities without a [The Great Tregtia]>"],
+    },
+    //Improvement
+    {
+		"name": "Stone Works",
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone", "Diamonds"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]",
+			"[+1 Production] from [Diamonds] tiles [in this city]"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Mausoleum of Halicarnassus",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Diamonds] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"requiredTech": "Masonry",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
+		"name": "Longhouse",
+		"replaces": "Workshop",
+		"uniqueTo": "Iroquois",
+		"cost": 100,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Hardwood] tiles [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Rice] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Dojo",
+        "replaces": "Barracks",
+		"uniqueTo": "Japan",
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+		"science": 2,
+		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"],
+        "requiredTech": "Bronze Working"
+    }
+]
