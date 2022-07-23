@@ -227,35 +227,35 @@ UnitPromotionIcons/The Magical World
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/The Modifier
+UnitPromotionIcons/The Necromancer
   rotate: false
   xy: 1500, 0
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/The Conqueror
+UnitPromotionIcons/The Destroyer
   rotate: false
   xy: 1550, 0
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/The Overseer
+UnitPromotionIcons/The Watcher
   rotate: false
   xy: 1500, 50
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/The Humiliator
+UnitPromotionIcons/The Killer
   rotate: false
   xy: 1550, 50
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Construction Magic
+UnitPromotionIcons/The Worker
   rotate: false
   xy: 1600, 0
   size: 100, 100
@@ -315,6 +315,20 @@ UnitPromotionIcons/The Mountain Peoples
   xy: 1000, 100
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Mariner
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Protector
+  rotate: false
+  xy: 1050, 300
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Jolopong
@@ -551,8 +565,8 @@ ImprovementIcons/Dzirvanas
 NationIcons/Indonesia3
   rotate: false
   xy: 200, 0
-  size: 200, 200
-  orig: 200, 200
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Questain
@@ -1205,9 +1219,78 @@ TileSets/FantasyHex/Tiles/Tundra+Dzirvanas
   orig: 32, 28
   offset: 0, 0
   index: -1
+
+game3.png
+size: 512, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Great Wizard
+  rotate: false
+  xy: 0, 0
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard Class A
+  rotate: false
+  xy: 32, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard Class A
+  rotate: false
+  xy: 32, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard Class B
+  rotate: false
+  xy: 64, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard Class C
+  rotate: false
+  xy: 96, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard Class D
+  rotate: false
+  xy: 128, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard Class S
+  rotate: false
+  xy: 160, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wizard Class SS
+  rotate: false
+  xy: 192, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Longcannon
+  rotate: false
+  xy: 224, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Idendo
   rotate: false
-  xy: 192, 64
+  xy: 256, 0
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
