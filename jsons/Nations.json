@@ -192,8 +192,8 @@
 	    "preferredVictoryType": "Domination",
 	    "favoredReligion": "Shinto",
 	    
-	    "startIntroPart1": "May the bless of god be upon you, oh Raka the king of the three worlds. As the king of the three worlds you succeeded in bringing God's teachings to your people, you also succeeded in bringing Leisi to the peak of its glory in religious and territorial expansion.",
-		"startIntroPart2": "But unfortunately, Leisi's Influence and the teachings of God that you brought are starting to be abandoned by many of your people. oh Raka the king of three worlds, Can you bring back God's teachings to your people and bring them back to their former glory? Can you build a civilization that will stand the test of time?",
+	    "startIntroPart1": "May success and prosperity always be with you, O Raka the Savior of the East. You led your nation when your nation was on the verge of collapse, as evidenced by the many deaths, famine, economic crisis, and the ongoing war against Bostuosil. But you managed to force Bostuosil to make peace because of your volunteer army of Loko Archers, and solve the economic crisis and hunger with your famous policies and improvement. Because of that your nation became the tundra nation who were feared because of the progress, wealth, prosperity of your people. Even though later your nation must be destroyed because the cruel Sunda Empire.",
+		"startIntroPart2": "But will your nation continue to crumble? O Raka the Savior of the East, your people ask you to return to being their leader and bring back all that Leisi had before, namely prosperity, progress, wealth, and much more. Can you bring your nation to its former glory? Can you build a civilization that will stand the test of time?",
 		"declaringWar": "You have angered God and because of that he asked me to punish you, prepare for war!",
 		"attacked": "Looks like you chose the wrong enemy, because god is on my side!",
 		"defeated": "If God has willed, then what can I do?",
@@ -424,7 +424,7 @@
 	      "favoredReligion": "Others",
 	
 	      "uniqueName": "The Magical World",
-	      "uniqueText": "[Archer] and their upgrades will changed to Taevas special units called Wizard with special promotions",
+	      "uniqueText": "Unlocks special units which replace Archer and its subsequent upgrades with a special promotions",
 	      "outerColor": [255,255,255],
 		  "innerColor": [100,100,100],
 	      "cities": ["Sandwick","Blackwallow","Whithaven","Sleekvale","Steepfall","Limepass","Silkhold","Rimecliff","Crystalmire","Nighthaven"

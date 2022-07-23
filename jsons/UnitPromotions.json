@@ -1,4 +1,219 @@
 [
+     //replaces
+    {
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Wizardry"]
+	},
+	{
+		"name": "The Magical World", //Taevas uniques
+        "uniques": ["[+25]% XP gained from combat",
+"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "The Destroyer",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["[+150]% Strength <vs cities> <when attacking>","[-1] Sight","No defensive terrain bonus",
+"Only available <for units without [The Protector]>",
+"Only available <for units without [The Watcher]>",
+"Only available <for units without [The Healer]>",
+"Only available <for units without [The Killer]>",
+"Only available <for units without [The Necromancer]>",
+"Only available <for units without [The Mariner]>",
+"Only available <for units without [The Worker]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Protector",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>","[+5]% Strength bonus for [Military] units within [3] tiles",
+"Only available <for units without [The Destroyer]>",
+"Only available <for units without [The Watcher]>",
+"Only available <for units without [The Healer]>",
+"Only available <for units without [The Killer]>",
+"Only available <for units without [The Necromancer]>",
+"Only available <for units without [The Mariner]>",
+"Only available <for units without [The Worker]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Watcher",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["[+2] Sight","May enter foreign tiles without open borders",
+"Only available <for units without [The Destroyer]>",
+"Only available <for units without [The Protector]>",
+"Only available <for units without [The Healer]>",
+"Only available <for units without [The Killer]>",
+"Only available <for units without [The Necromancer]>",
+"Only available <for units without [The Mariner]>",
+"Only available <for units without [The Worker]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Healer",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["All adjacent units heal [+5] HP when healing","Unit will heal every turn, even if it performs an action",
+"Only available <for units without [The Destroyer]>",
+"Only available <for units without [The Protector]>",
+"Only available <for units without [The Watcher]>",
+"Only available <for units without [The Killer]>",
+"Only available <for units without [The Necromancer]>",
+"Only available <for units without [The Mariner]>",
+"Only available <for units without [The Worker]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+    {
+		"name": "The Killer",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["Heals [50] damage if it kills a unit","Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+"Only available <for units without [The Destroyer]>",
+"Only available <for units without [The Protector]>",
+"Only available <for units without [The Watcher]>",
+"Only available <for units without [The Healer]>",
+"Only available <for units without [The Necromancer]>",
+"Only available <for units without [The Mariner]>",
+"Only available <for units without [The Worker]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Necromancer",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["May capture killed [Military] units","[+15]% Strength <when attacking>",
+"Only available <for units without [The Destroyer]>",
+"Only available <for units without [The Protector]>",
+"Only available <for units without [The Watcher]>",
+"Only available <for units without [The Healer]>",
+"Only available <for units without [The Killer]>",
+"Only available <for units without [The Mariner]>",
+"Only available <for units without [The Worker]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Mariner",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["May attack when embarked","Eliminates combat penalty for attacking across a coast","Defense bonus when embarked","Normal vision when embarked","Ranged attacks may be performed over obstacles",
+"Only available <for units without [The Destroyer]>",
+"Only available <for units without [The Protector]>",
+"Only available <for units without [The Watcher]>",
+"Only available <for units without [The Healer]>",
+"Only available <for units without [The Killer]>",
+"Only available <for units without [The Necromancer]>",
+"Only available <for units without [The Worker]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "The Worker",
+		"prerequisites": ["The Magical World"],
+		"uniques": ["Can build [All] improvements on tiles",
+"Only available <for units without [The Destroyer]>",
+"Only available <for units without [The Protector]>",
+"Only available <for units without [The Watcher]>",
+"Only available <for units without [The Healer]>",
+"Only available <for units without [The Killer]>",
+"Only available <for units without [The Mariner]>",
+"Only available <for units without [The Necromancer]>",
+"Will not be displayed in Civilopedia"],
+		"unitTypes": ["Wizardry"]
+	},
+	{
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Wizardry"]
+	},
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Wizardry"]
+	},
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Wizardry"]
+	},
+
+	{
+		"name": "Barrage I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Wizardry"]
+	},
+	{
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Wizardry"]
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder","Wizardry"]
+	},
+
+	{
+		"name": "Volley",
+		"prerequisites": ["Accuracy I","Barrage I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Archery","Wizardry","Ranged Gunpowder","Siege"]
+	},
+	{
+		"name": "Extended Range",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Archery","Wizardry","Ranged Gunpowder","Siege","Ranged Water","Submarine"]
+	},
+	{
+		"name": "Indirect Fire",
+		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Archery","Wizardry","Ranged Gunpowder","Siege","Ranged Water"]
+	},
+	{
+		"name": "Cover I",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Wizardry","Ranged Gunpowder","Siege"]
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Wizardry","Ranged Gunpowder","Siege"]
+	},
+
+	{
+		"name": "March",
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Sword","Gunpowder","Archery","Wizardry","Ranged Gunpowder","Siege","Mounted"]
+	},
+	{
+		"name": "Mobility",
+		"prerequisites": ["Shock II","Drill II","Targeting I",
+			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"]
+	},
+	{
+		"name": "Sentry",
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"]
+	},
+	{
+		"name": "Logistics",
+		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
+			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
+		"unitTypes": ["Archery","Wizardry","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"]
+	},
     //Unit Promotions
 	{
 		"name": "[Arsia] ability",
@@ -61,75 +276,5 @@
 	{
 	    "name": "The Mountain Peoples", //Questain
         "uniques": ["Can pass through impassable tiles","[+10]% Strength <within [2] tiles of a [Mountain]>"]
-	},
-	{
-		"name": "The Magical World", //Taevas uniques
-        "uniques": ["[Great General] is earned [25]% faster"]
-	},
-	{
-		"name": "The Modifier I",
-		"prerequisites": ["The Magical World"],
-		"uniques": ["May capture killed [Military] units <with [33]% chance>","Only available <for units without [The Overseer I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Conqueror I]>","Only available <for units without [The Healer I]>"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Modifier II",
-		"prerequisites": ["The Modifier I"],
-		"uniques": ["May capture killed [Military] units <with [33]% chance>"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Overseer I",
-		"prerequisites": ["The Magical World"],
-		"uniques": ["[+1] Sight","May enter foreign tiles without open borders","Only available <for units without [The Modifier I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Conqueror I]>","Only available <for units without [The Healer I]>"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Overseer II",
-		"prerequisites": ["The Overseer I"],
-		"uniques": ["[+1] Sight","[+1] Movement"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Humiliator I",
-		"prerequisites": ["The Magical World"],
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles","Only available <for units without [The Modifier I]>","Only available <for units without [The Overseer I]>","Only available <for units without [The Conqueror I]>","Only available <for units without [The Healer I]>"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Humiliator II",
-		"prerequisites": ["The Humiliator I"],
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Conqueror I",
-		"prerequisites": ["The Magical World"],
-		"uniques": ["[+150]% Strength <vs cities> <when attacking>", "No defensive terrain bonus","Can only attack [City] units","Only available <for units without [The Modifier I]>","Only available <for units without [The Overseer I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Healer I]>"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Conqueror II",
-		"prerequisites": ["The Conqueror I"],
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Healer I",
-		"prerequisites": ["The Magical World"],
-		"uniques": ["All adjacent units heal [+5] HP when healing","Unit will heal every turn, even if it performs an action","Only available <for units without [The Modifier I]>","Only available <for units without [The Overseer I]>","Only available <for units without [The Humiliator I]>","Only available <for units without [The Conqueror I]>"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "The Healer II",
-		"prerequisites": ["The Healer I"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Wizardry"]
-	},
-	{
-		"name": "Construction Magic",
-		"prerequisites": ["The Healer II","The Overseer II","The Humiliator II","The Conqueror II","The Modifier II"],
-		"uniques": ["Can build [Land] improvements on tiles"],
-		"unitTypes": ["Wizardry"]
 	}
 ]
