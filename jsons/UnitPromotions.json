@@ -97,7 +97,7 @@
 	{
 		"name": "The Mariner",
 		"prerequisites": ["The Magical World"],
-		"uniques": ["May attack when embarked","Eliminates combat penalty for attacking across a coast","Defense bonus when embarked","Normal vision when embarked","Ranged attacks may be performed over obstacles",
+		"uniques": ["May attack when embarked","Eliminates combat penalty for attacking across a coast","Defense bonus when embarked","[+1] Sight <when [Embarked]>","Ranged attacks may be performed over obstacles",
 "Only available <for units without [The Destroyer]>",
 "Only available <for units without [The Protector]>",
 "Only available <for units without [The Watcher]>",

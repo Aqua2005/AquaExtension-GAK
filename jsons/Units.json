@@ -57,7 +57,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" 
 	},
 	{
@@ -197,7 +197,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit" ,
 		"promotions": ["Mobility","Medic"]
 	},
@@ -405,7 +405,7 @@
 		"obsoleteTech": "Radar",
 		"requiredTech": "Scientific Theory",
 		"uniques": ["[+2] Sight",
-			"No defensive terrain bonus", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+			"No defensive terrain bonus", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
 	},
@@ -417,7 +417,7 @@
 		"cost": 350,
 		"requiredTech": "Radar",
 		"uniques": ["[+3] Sight",
-			"No defensive terrain bonus", "Normal vision when embarked", "Never appears as a Barbarian unit"],
+			"No defensive terrain bonus", "[+1] Sight <when [Embarked]>", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "shot"
 	},
@@ -522,7 +522,7 @@
 	    "uniqueTo": "Taevas",
 		"replaces": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles","All adjacent units heal [+10] HP when healing", "[+10] HP when healing","Transfer Movement to [Military]","Can construct [Citadel]",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles","All adjacent units heal [+10] HP when healing", "[+10] HP when healing","Transfer Movement to [Military]","Can instantly construct a [Citadel] <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	}

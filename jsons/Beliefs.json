@@ -54,7 +54,7 @@
     {
         "name": "Creativity",
         "type": "Follower",
-        "uniques": ["[+1]% [Culture] from every follower, up to [6]%","[+1 Faith] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+1]% [Culture] from every follower, up to [6]%","[+1 Faith]"]
     },
         {
         "name": "Thrift",
